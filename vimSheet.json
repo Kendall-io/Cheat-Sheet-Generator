@@ -1,0 +1,82 @@
+{
+	"name": "Vim",
+	"description": "Vim Cheatsheet with basic commands to get around",
+	"author": "Kendall Molas",
+	"email": "kmolas@nyit.edu",
+	"repository": "https://github.com/kendall-io/Cheatsheet",
+	"version": "0.1",
+	"sections": {
+		"Cursor Movement": {
+			"Move Cursor Left": {
+				"description": "Move cursor to the left",
+				"code": "h"
+			},
+			"Move Cursor Down": {
+				"description": "Move cursor down",
+				"code": "j"
+			},
+            "Move Cursor Up": {
+                "description": "Move cursor up",
+                "code": "k"
+            },
+            "Move to the top of the screen": {
+                "description": "Move cursor to the top of page",
+                "code": "H"
+            },
+            "Move to the middle of the screen": {
+                "description": "Move cursor to the middle of the screen",
+                "code": "M"
+            },
+            "Move to the bottom of the screen": {
+                "description": "Move cursor to the bottom of the page",
+                "code": "L"
+            },
+            "Jump forwards to start of word": {
+                "description": "Jumps to the start of word, cannot contain punctuation",
+                "code": "w"
+            },
+            "Jump forwards to start of word": {
+                "description": "Jumps to the start of word, can contain punctuation",
+                "code": "W"
+            },
+            "Jumps forward to end of word": {
+                "description": "Jumps to end of the word, doesn't ignore punctuation",
+                "code": ""
+            },
+            "Jumps ": {
+                "description": "",
+                "code": ""
+            },
+            "": {
+                "description": "",
+                "code": ""
+            },
+            "": {
+                "description": "",
+                "code": ""
+            },
+            "": {
+                "description": "",
+                "code": ""
+            },
+            "": {
+                "description": "",
+                "code": ""
+            },
+            "": {
+                "description": "",
+                "code": ""
+            },
+		},
+		"Section 2": {
+			"Example 1": {
+				"description": "Example 1 description",
+				"code": "EXAMPLE 1 CODE"
+			},
+			"Example 2": {
+				"description": "Example 2 description",
+				"code": "EXAMPLE 2 CODE"
+			}
+		}
+	}
+}
