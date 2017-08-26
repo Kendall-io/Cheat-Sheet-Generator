@@ -13,5 +13,5 @@ Example:
 H - move cursor left
 ```
 
-###Credits:
+### Credits:
 Thank you centurix for the template that he provided in the downloads.
