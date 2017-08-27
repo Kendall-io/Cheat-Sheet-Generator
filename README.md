@@ -31,7 +31,7 @@ The format of the template is:
 ```
 
 ### Current Problems:
-For some reason, it will read anything after the first '<li>...</li>' twice.
+For some reason, it will read anything after the first li tags twice.
 <br>
 Example shown:
 ```
