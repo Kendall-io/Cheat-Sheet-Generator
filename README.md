@@ -12,6 +12,23 @@ Example:
 
 H - move cursor left
 ```
+<br>
+
+The format of the template is:
+```
+"sections": {
+    "Section Description": {
+         "What the command does": {
+             "description": "",
+             "code": ""
+         },
+         "Example 2": {
+             "description": "",
+             "code": ""
+         }
+    },
+
+```
 
 ### Credits:
 Thank you centurix for the template that he provided in the downloads.
