@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+# This will be for eventually parsing the website name
 import os
 
 # Holds all the header text in one place
@@ -13,6 +14,42 @@ keyCodeArray = []
 # Holds the descriptions for the key shortcuts
 descriptionArray = []
 
+##
+# Open the website to be scrapped
+def openFile():
+    prevent_word_repeat = ''
+    with open("Vim Cheat Sheet - English.html") as website:
+        soup = BeautifulSoup(website,"lxml")
+
+        # Want to find all headers in the webpage.
+        # Notes: This will be updated in the future to not only specify <h2> tag specifically
+        for headers in soup.find_all('h2'):
+            if (headers.get_text() != 'Additional Resources'):
+                headersArray.append(headers.get_text().encode('utf-8'))
+                i = 0
+                firstLine = False
+                for unorderedLists in headers.find_next('ul'):
+                    output = unorderedLists.find_next_sibling('li')
+                    if (output is not None):
+
+                        # Avoid the double output of the lines after the first <li>...</li> is outputted
+                        if prevent_word_repeat != output and firstLine == False:
+
+                            # Debugging purpose
+                            #print output
+                            getData(output.encode('utf-8'))
+                            prevent_word_repeat = output
+                            firstLine = True
+                            i = i + 1
+
+                        else:
+                            firstLine = False
+
+                list_of_commands_under_header.append(i)
+
+                # Debugging purpose
+                #print '-----'
+
 # Cleans and seperates text objects
 def getData(output):
 
@@ -23,6 +60,9 @@ def getData(output):
     description = ''
     keyPressFound = False
     descriptionFound = False
+
+    # Kendall attempt at trying to remove the tags from the keyPress
+    removingKeyWords = ['<li>', '<kbd>', '</kbd>']
 
     ##
     # Separates the key shortcut for vim commands from the description.
@@ -39,30 +79,15 @@ def getData(output):
                 else:
                     description += output[i]
 
+        # Doesn't work
+        keyPress = ' '.join(x for x in keyPress.split() if x not in removingKeyWords)
+
         ##
         # Save the key codes and the descriptions to the arrays for processing later on
         keyCodeArray.append('keycode: ' +  keyPress.encode('utf-8'))
         descriptionArray.append('description: ' + description.encode('utf-8').strip())
     except:
         pass
-
-##
-# Open the website to be scrapped
-def openFile():
-    with open("Vim Cheat Sheet - English.html") as website:
-        soup = BeautifulSoup(website,"lxml")
-        for headers in soup.find_all('h2'):
-            if (headers.get_text() != 'Additional Resources'):
-                headersArray.append(headers.get_text().encode('utf-8'))
-                i = 0
-                for unorderedLists in headers.find_next('ul'):
-                    output = unorderedLists.find_next_sibling('li')
-                    if (output is not None and (output.previous_sibling != output and output.previous_sibling is not None)):
-                        getData(output.get_text().encode('utf-8'))
-                        print output.get_text()
-                        i = i + 1
-                list_of_commands_under_header.append(i)
-                print '------'
 
 ##
 # Cheat Sheet format is as follows
@@ -76,6 +101,7 @@ def outputCheatSheetFile():
         for commands in range(0, len(list_of_commands_under_header)):
             if commands != 0:
                 tempNum = tempNum + list_of_commands_under_header[i]
+                # Deprecated Code?
                 #for amount_of_previous_commands in range (0, len(commands)):
                 #    tempNum = amount_of_previous_commands + commands[outCommands]
         for length in range(0, tempNum):
@@ -91,8 +117,13 @@ def main():
     openFile()
     #outputCheatSheetFile()
 
+    # More Debugging Stats:
+    for i in range(0, len(keyCodeArray)):
+        print keyCodeArray[i]
+
     # Debugging
     for i in range (0, len(list_of_commands_under_header)):
         print list_of_commands_under_header[i]
         print '---'
+
 main()

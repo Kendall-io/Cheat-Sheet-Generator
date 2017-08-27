@@ -31,9 +31,25 @@ The format of the template is:
 ```
 
 ### Current Problems:
-For some reason, it will read anything after the first li tags twice.
+Have to remove tags from the current strings that are stored in the keyCode array and the descriptions array:
 <br>
-Example shown:
+Currently they have these tags with them.
+```
+keycode: <li><kbd>:o file</kbd>
+keycode: <li><kbd>:saveas file</kbd>
+keycode: <li><kbd>:close</kbd>
+keycode: <li><kbd>K</kbd>
+keycode: <li><kbd>h</kbd>
+keycode: <li><kbd>j</kbd>
+keycode: <li><kbd>k</kbd>
+keycode: <li><kbd>l</kbd>
+keycode: <li><kbd>H</kbd>
+
+```
+
+~~For some reason, it will read anything after the first li tags twice.~~
+<br>
+~~Example shown:~~
 ```
 :help keyword - open help for keyword
 :o file - open file
