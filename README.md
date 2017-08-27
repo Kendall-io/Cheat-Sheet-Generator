@@ -47,6 +47,12 @@ keycode: <li><kbd>H</kbd>
 
 ```
 
+What i want is something in the form of
+```
+keycode: h
+
+```
+
 ~~For some reason, it will read anything after the first li tags twice.~~
 <br>
 ~~Example shown:~~
