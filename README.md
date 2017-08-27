@@ -30,5 +30,23 @@ The format of the template is:
 
 ```
 
+### Current Problems:
+For some reason, it will read anything after the first '<li>...</li>' twice.
+<br>
+Example shown:
+```
+:help keyword - open help for keyword
+:o file - open file
+:o file - open file
+:saveas file - save file as
+:saveas file - save file as
+:close - close current pane
+:close - close current pane
+K - open man page for word under the cursor
+K - open man page for word under the cursor
+------
+
+```
+
 ### Credits:
 Thank you centurix for the template that he provided in the downloads.
