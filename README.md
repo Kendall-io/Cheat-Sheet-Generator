@@ -72,3 +72,4 @@ K - open man page for word under the cursor
 
 ### Credits:
 Thank you centurix for the template that he provided in the downloads.
+Thank you bgusach for code to replace certain words in a string

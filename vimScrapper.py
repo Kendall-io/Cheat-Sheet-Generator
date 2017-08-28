@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 # This will be for eventually parsing the website name
 import os
+import re
 
 # Holds all the header text in one place
 headersArray = []
@@ -61,8 +62,9 @@ def getData(output):
     keyPressFound = False
     descriptionFound = False
 
-    # Kendall attempt at trying to remove the tags from the keyPress
-    removingKeyWords = ['<li>', '<kbd>', '</kbd>']
+    # The tags that need to be removed
+    replacementTagsForKeys = {'<li>': '', '<kbd>': '', '</kbd>': ''}
+    replacementTagsForDescriptions = {'</li>', ''}
 
     ##
     # Separates the key shortcut for vim commands from the description.
@@ -79,17 +81,30 @@ def getData(output):
                 else:
                     description += output[i]
 
-        # Doesn't work
-        keyPress = ' '.join(x for x in keyPress.split() if x not in removingKeyWords)
+        keyPress = tag_removal(keyPress, replacementTagsForKeys)
+
+        # Tag_removal does not work due to function, so using .replace() is used instead
+        description = description.strip().replace('</li>', '')
+
+        #print description
 
         ##
         # Save the key codes and the descriptions to the arrays for processing later on
         keyCodeArray.append('keycode: ' +  keyPress.encode('utf-8'))
-        descriptionArray.append('description: ' + description.encode('utf-8').strip())
+        descriptionArray.append('description: ' + description.encode('utf-8'))
     except:
         pass
 
-##
+# Thank you to bgusach for the multi-replacement string code using regex
+def tag_removal(string, replacements):
+    substr = sorted(replacements, key = len, reverse=True)
+
+    regexp = re.compile('|'.join(map(re.escape, substr)))
+
+    return regexp.sub(lambda match: replacements[match.group(0)], string)
+
+
+
 # Cheat Sheet format is as follows
 # sectionstart += '\"' + headersarray[i].title() + '\": {\n' + '\t\"' + descriptionarray[i] + '\",\n' + '\t\t\"' + keycodearray[i] + '\",\n},'
 # func - create the cheat sheet format for copying and pasting later on
@@ -104,6 +119,7 @@ def outputCheatSheetFile():
                 # Deprecated Code?
                 #for amount_of_previous_commands in range (0, len(commands)):
                 #    tempNum = amount_of_previous_commands + commands[outCommands]
+
         for length in range(0, tempNum):
             if length == tempNum - 1:
                 sectionStart += '\t\"' + descriptionArray[length].title() + '\",\n' + '\t\t\"' + keyCodeArray[length] + '\",\n}'
@@ -115,15 +131,19 @@ def outputCheatSheetFile():
 
 def main():
     openFile()
-    #outputCheatSheetFile()
+    outputCheatSheetFile()
 
+    '''
     # More Debugging Stats:
-    for i in range(0, len(keyCodeArray)):
+    for i in range (0, len(keyCodeArray)):
         print keyCodeArray[i]
+    for i in range(0, len(descriptionArray)):
+        print descriptionArray[i]
 
     # Debugging
     for i in range (0, len(list_of_commands_under_header)):
         print list_of_commands_under_header[i]
         print '---'
+    '''
 
 main()
