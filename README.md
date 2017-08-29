@@ -5,6 +5,7 @@
 
 ### Purpose
 Webscrapes a webpage and gets the data from it if it is formed in similar syntax:
+Currently only works with the VIM html website
 ```
 Key Code - Description
 
@@ -14,6 +15,18 @@ H - move cursor left
 ```
 <br>
 
+Keep in mind that if one is using Linux Mint Cinnamon it is assuming that the location of the cheaty applet is stored in:
+```
+~/.local/share/cinnamon/applets/cheaty@centurix/
+```
+
+### Usage
+
+```
+python template_creator.py [fileName]
+```
+### Format of template:
+This template was given by cheaty since it was provided in the package. <br>
 The format of the template is:
 ```
 {
