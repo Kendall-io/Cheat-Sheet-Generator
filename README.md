@@ -31,9 +31,11 @@ The format of the template is:
 ```
 
 ### Current Problems:
-Have to remove tags from the current strings that are stored in the keyCode array and the descriptions array:
+Fix format of text and fix output as well. It is not iterating at the starting header<br>
+
+~Have to remove tags from the current strings that are stored in the keyCode array and the descriptions array:
 <br>
-Currently they have these tags with them.
+~Currently they have these tags with them.~
 ```
 keycode: <li><kbd>:o file</kbd>
 keycode: <li><kbd>:saveas file</kbd>
@@ -46,8 +48,7 @@ keycode: <li><kbd>l</kbd>
 keycode: <li><kbd>H</kbd>
 
 ```
-
-What i want is something in the form of
+~What i want is something in the form of~
 ```
 keycode: h
 
@@ -70,6 +71,12 @@ K - open man page for word under the cursor
 
 ```
 
+### What to implement in the future:
+- Argument command where it wgets the website and then extracts website data from it.
+- Adjust cheaty configuration in the linux mint applet where user can choose the commands that it wants
+- Finds the users path for cheaty to implement directly with interaction.
+
 ### Credits:
 Thank you centurix for the template that he provided in the downloads.
+<br>
 Thank you bgusach for code to replace certain words in a string
