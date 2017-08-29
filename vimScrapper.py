@@ -1,7 +1,13 @@
+##
+# templateFormatter.py
+# This program will read an html file that has lists and headers and those lists and headers will be put into a template used in the cheaty applet
+# @author: Kendall Molas, Randy Martinez
+
 from bs4 import BeautifulSoup
+import re
+
 # This will be for eventually parsing the website name
 import os
-import re
 
 # Holds all the header text in one place
 headersArray = []
@@ -35,21 +41,14 @@ def openFile():
 
                         # Avoid the double output of the lines after the first <li>...</li> is outputted
                         if prevent_word_repeat != output and firstLine == False:
-
-                            # Debugging purpose
-                            #print output
                             getData(output.encode('utf-8'))
                             prevent_word_repeat = output
                             firstLine = True
                             i = i + 1
-
                         else:
                             firstLine = False
 
                 list_of_commands_under_header.append(i)
-
-                # Debugging purpose
-                #print '-----'
 
 # Cleans and seperates text objects
 def getData(output):
@@ -81,21 +80,24 @@ def getData(output):
                 else:
                     description += output[i]
 
+        # Removes the tags from the lines
         keyPress = tag_removal(keyPress, replacementTagsForKeys)
 
         # Tag_removal does not work due to function, so using .replace() is used instead
         description = description.strip().replace('</li>', '')
 
-        #print description
-
         ##
         # Save the key codes and the descriptions to the arrays for processing later on
-        keyCodeArray.append('keycode: ' +  keyPress.encode('utf-8'))
-        descriptionArray.append('description: ' + description.encode('utf-8'))
+        keyCodeArray.append('\"code\": \"' +  keyPress.encode('utf-8') + '\"')
+        #descriptionArray.append('description: ' + description.encode('utf-8').title())
+        descriptionArray.append(description.encode('utf-8').title())
+
     except:
         pass
 
 # Thank you to bgusach for the multi-replacement string code using regex
+# https://gist.github.com/bgusach/a967e0587d6e01e889fd1d776c5f3729
+
 def tag_removal(string, replacements):
     substr = sorted(replacements, key = len, reverse=True)
 
@@ -103,47 +105,33 @@ def tag_removal(string, replacements):
 
     return regexp.sub(lambda match: replacements[match.group(0)], string)
 
-
-
 # Cheat Sheet format is as follows
 # sectionstart += '\"' + headersarray[i].title() + '\": {\n' + '\t\"' + descriptionarray[i] + '\",\n' + '\t\t\"' + keycodearray[i] + '\",\n},'
 # func - create the cheat sheet format for copying and pasting later on
 def outputCheatSheetFile():
-    sectionStart = '\"sections:\" {\n'
+    sectionStart = '\"sections:\" {\n\t'
     tempNum = 0
+
+    ##
+    # Iterate through descriptions and keycodes for each header
     for i in range(0, len(headersArray)):
         sectionStart += '\"' + headersArray[i].title() + '\": {\n'
-        for commands in range(0, len(list_of_commands_under_header)):
-            if commands != 0:
-                tempNum = tempNum + list_of_commands_under_header[i]
-                # Deprecated Code?
-                #for amount_of_previous_commands in range (0, len(commands)):
-                #    tempNum = amount_of_previous_commands + commands[outCommands]
+        tempNum += list_of_commands_under_header[i]
 
         for length in range(0, tempNum):
             if length == tempNum - 1:
-                sectionStart += '\t\"' + descriptionArray[length].title() + '\",\n' + '\t\t\"' + keyCodeArray[length] + '\",\n}'
+                sectionStart += '\t\t\"' + descriptionArray[length] + '\",\n' + '\t\t\t\"' + 'description: ' + '\"' + descriptionArray[length] + '\"\n\t\t\t' + keyCodeArray[length] + '\n\t\t}\n'
             else:
-                sectionStart += '\t\"' + descriptionArray[length].title() + '\",\n' + '\t\t\"' + keyCodeArray[length] + '\",\n},'
-        tempNum = 0
-        sectionStart += '\n},'
+                sectionStart += '\t\t\"' + descriptionArray[length] + '\",\n' + '\t\t\t\"' + 'description: ' + '\"' + descriptionArray[length] + '\"\n\t\t\t' + keyCodeArray[length] + '\n\t\t},\n'
+        #tempNum = 0
+        if (i == len(headersArray) - 1):
+            sectionStart += '\n\t\t}\n\t\t'
+        else:
+            sectionStart += '\n\t\t},\n\t\t'
     print sectionStart
 
 def main():
     openFile()
     outputCheatSheetFile()
-
-    '''
-    # More Debugging Stats:
-    for i in range (0, len(keyCodeArray)):
-        print keyCodeArray[i]
-    for i in range(0, len(descriptionArray)):
-        print descriptionArray[i]
-
-    # Debugging
-    for i in range (0, len(list_of_commands_under_header)):
-        print list_of_commands_under_header[i]
-        print '---'
-    '''
 
 main()
