@@ -21,9 +21,17 @@ keyCodeArray = []
 # Holds the descriptions for the key shortcuts
 descriptionArray = []
 
+def main():
+    #userInput = input('Input html file name here (DO NOT INCLUDE .html EXTNESION)')
+    #if not os.path.exists(userInput + '.html'):
+    #    os.makedirs(userInput)
+    #os.chdir('userInput')
+    readWebsite()
+    outputCheatSheetFile()
+
 ##
 # Open the website to be scrapped
-def openFile():
+def readWebsite():
     prevent_word_repeat = ''
     with open("Vim Cheat Sheet - English.html") as website:
         soup = BeautifulSoup(website,"lxml")
@@ -33,7 +41,7 @@ def openFile():
         for headers in soup.find_all('h2'):
             if (headers.get_text() != 'Additional Resources'):
                 headersArray.append(headers.get_text().encode('utf-8'))
-                i = 0
+                total_li_per_line = 0
                 firstLine = False
                 for unorderedLists in headers.find_next('ul'):
                     output = unorderedLists.find_next_sibling('li')
@@ -44,13 +52,13 @@ def openFile():
                             getData(output.encode('utf-8'))
                             prevent_word_repeat = output
                             firstLine = True
-                            i = i + 1
+                            total_li_per_line = total_li_per_line + 1
                         else:
                             firstLine = False
 
-                list_of_commands_under_header.append(i)
+                list_of_commands_under_header.append(total_li_per_line)
 
-# Cleans and seperates text objects
+# Cleans and seperates the lines of text that are inputted
 def getData(output):
 
     ##
@@ -63,7 +71,7 @@ def getData(output):
 
     # The tags that need to be removed
     replacementTagsForKeys = {'<li>': '', '<kbd>': '', '</kbd>': ''}
-    replacementTagsForDescriptions = {'</li>', ''}
+    replacementTagsForDescription = {'</li>', ''}
 
     ##
     # Separates the key shortcut for vim commands from the description.
@@ -88,8 +96,7 @@ def getData(output):
 
         ##
         # Save the key codes and the descriptions to the arrays for processing later on
-        keyCodeArray.append('\"code\": \"' +  keyPress.encode('utf-8') + '\"')
-        #descriptionArray.append('description: ' + description.encode('utf-8').title())
+        keyCodeArray.append('\"code\": \"' +  keyPress.encode('utf-8').strip() + '\"')
         descriptionArray.append(description.encode('utf-8').title())
 
     except:
@@ -106,32 +113,70 @@ def tag_removal(string, replacements):
     return regexp.sub(lambda match: replacements[match.group(0)], string)
 
 # Cheat Sheet format is as follows
-# sectionstart += '\"' + headersarray[i].title() + '\": {\n' + '\t\"' + descriptionarray[i] + '\",\n' + '\t\t\"' + keycodearray[i] + '\",\n},'
+'''
+{
+	"name": "Cheatsheet Template",
+	"description": "Cheatsheet template",
+	"author": "Chris Read",
+	"email": "centurix@gmail.com",
+	"repository": "http://fipo.co",
+	"version": "0.1",
+	"sections": {
+		"Section 1": {
+			"Example 1": {
+				"description": "Example 1 description",
+				"code": "EXAMPLE 1 CODE"
+			},
+			"Example 2": {
+				"description": "Example 2 description",
+				"code": "EXAMPLE 2 CODE"
+			}
+		},
+		"Section 2": {
+			"Example 1": {
+				"description": "Example 1 description",
+				"code": "EXAMPLE 1 CODE"
+			},
+			"Example 2": {
+				"description": "Example 2 description",
+				"code": "EXAMPLE 2 CODE"
+			}
+		}
+	}
+}
+'''
 # func - create the cheat sheet format for copying and pasting later on
+
 def outputCheatSheetFile():
-    sectionStart = '\"sections:\" {\n\t'
-    tempNum = 0
+    sectionStart = '\"sections\": {\n\t'
+    counter = 0
 
     ##
     # Iterate through descriptions and keycodes for each header
-    for i in range(0, len(headersArray)):
-        sectionStart += '\"' + headersArray[i].title() + '\": {\n'
-        tempNum += list_of_commands_under_header[i]
+    for num in range(0, len(list_of_commands_under_header)):
+        sectionStart += '\"' + headersArray[num] + '\": {\n'
 
-        for length in range(0, tempNum):
-            if length == tempNum - 1:
-                sectionStart += '\t\t\"' + descriptionArray[length] + '\",\n' + '\t\t\t\"' + 'description: ' + '\"' + descriptionArray[length] + '\"\n\t\t\t' + keyCodeArray[length] + '\n\t\t}\n'
+        # Only want to input amount that are inside each header. Counter used
+        for i in range(0, list_of_commands_under_header[num]):
+            if i == list_of_commands_under_header[num] - 1:
+                sectionStart += '\t\t\"' + descriptionArray[counter] + '\",\n' + '\t\t\t\"' + 'description\": ' + '\"' + descriptionArray[counter] + '\"\n\t\t\t' + keyCodeArray[counter] + '\n\t\t}\n'
             else:
-                sectionStart += '\t\t\"' + descriptionArray[length] + '\",\n' + '\t\t\t\"' + 'description: ' + '\"' + descriptionArray[length] + '\"\n\t\t\t' + keyCodeArray[length] + '\n\t\t},\n'
-        #tempNum = 0
-        if (i == len(headersArray) - 1):
-            sectionStart += '\n\t\t}\n\t\t'
+                sectionStart += '\t\t\"' + descriptionArray[counter] + '\",\n' + '\t\t\t\"' + 'description\": ' + '\"' + descriptionArray[counter] + '\"\n\t\t\t' + keyCodeArray[counter] + '\n\t\t},\n'
+
+            counter = counter + 1
+
+        if (num == len(list_of_commands_under_header) - 1):
+            sectionStart += '\n\t\t}\n\t'
         else:
-            sectionStart += '\n\t\t},\n\t\t'
-    print sectionStart
+            sectionStart += '\n\t},\n\t'
 
-def main():
-    openFile()
-    outputCheatSheetFile()
+    createCheatSheet(sectionStart)
 
-main()
+def createCheatSheet(section):
+    with open('Vim.json', 'w') as chtSheet:
+        chtSheet.write('{\n\t\"name\": ' + '\"Vim Template\",\n\t' + '\"description\":' + '\"Vim Template\",\n\t' + '\"author\",\n\t' + '\"email\":' + '\"repository\",\n\t' + '\"version\":' + '\"0.1\",\n\t')
+        chtSheet.write(section)
+        chtSheet.write('}\n}')
+
+if __name__ == '__main__':
+    main()
