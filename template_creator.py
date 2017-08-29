@@ -8,6 +8,9 @@ import re
 
 # This will be for eventually parsing the website name
 import os
+import argparse
+import sys
+import wget
 
 # Holds all the header text in one place
 headersArray = []
@@ -21,13 +24,49 @@ keyCodeArray = []
 # Holds the descriptions for the key shortcuts
 descriptionArray = []
 
-def main():
+# Variables for user input
+file_name = ''
+file_description = ''
+file_author = ''
+file_email = ''
+file_repo = ''
+file_version = ''
+
+def main(args):
     #userInput = input('Input html file name here (DO NOT INCLUDE .html EXTNESION)')
     #if not os.path.exists(userInput + '.html'):
     #    os.makedirs(userInput)
     #os.chdir('userInput')
+    #os.system('echo \'HTML File Processed\'')
+
+    set_up_info()
+    website = wget.download(args)
+
+    navigateSystem()
+
     readWebsite()
     getSections()
+
+def set_up_info():
+    file_name = input('What would you like the template name to show up as: ')
+    file_description = input('Description of what this template is: ')
+    file_author = input('Authors of this project: ')
+    file_email = input('Email addresses of the authors: ')
+    file_repo = input('Enter repository link: ')
+    file_version = input('Version: ')
+
+def navigateSystem():
+    os.path.expanduser("~/.local/share/cinnamon/applets/cheaty@centurix/refdocs")
+
+    if not os.path.exists(userInput + '.html'):
+        os.makedirs(userInput1)
+    os.chdir('userInput')
+
+    if not os.path.exists(userInput2):
+        os.makedirs(userInput2)
+    os.chdir('userInput2')
+
+    os.system('echo \'HTML File Processed\'')
 
 ##
 # Open the website to be scrapped
@@ -147,4 +186,9 @@ def createCheatSheet(section):
         chtSheet.write('}\n}')
 
 if __name__ == '__main__':
-    main()
+    helpArgs = argparse.ArgumentParser(description='Extract li tags from a website to put into a cheat sheet for cheaty')
+    helpArgs.add_argument('website_name', help='Input the website url here')
+
+    args = helpArgs.parse_args()
+    main(args)
+
