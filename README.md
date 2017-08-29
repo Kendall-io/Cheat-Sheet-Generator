@@ -48,10 +48,15 @@ The format of the template is:
 }
 ```
 
-### Current Problems:
-Fix format of text and fix output as well. It is not iterating at the starting header<br>
 
-~Have to remove tags from the current strings that are stored in the keyCode array and the descriptions array:
+### What to implement in the future:
+- Argument command where it wgets the website and then extracts website data from it.
+- Adjust cheaty configuration in the linux mint applet where user can choose the commands that it wants
+- Finds the users path for cheaty to implement directly with interaction.
+~### Current Problems:~
+~Fix format of text and fix output as well. It is not iterating at the starting header~<br>
+
+~Have to remove tags from the current strings that are stored in the keyCode array and the descriptions array:~
 <br>
 ~Currently they have these tags with them.~
 ```
@@ -88,11 +93,6 @@ K - open man page for word under the cursor
 ------
 
 ```
-
-### What to implement in the future:
-- Argument command where it wgets the website and then extracts website data from it.
-- Adjust cheaty configuration in the linux mint applet where user can choose the commands that it wants
-- Finds the users path for cheaty to implement directly with interaction.
 
 ### Credits:
 Thank you centurix for the template that he provided in the downloads.
