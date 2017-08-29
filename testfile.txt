@@ -1,4687 +1,571 @@
-"sections:" {
+"sections": {
 	"Global": {
 		"Open Help For Keyword",
-			"description: "Open Help For Keyword"
-			"code": ":help keyword "
+			"description": "Open Help For Keyword"
+			"code": ":help keyword"
 		},
 		"Open File",
-			"description: "Open File"
-			"code": ":o file "
+			"description": "Open File"
+			"code": ":o file"
 		},
 		"Save File As",
-			"description: "Save File As"
-			"code": ":saveas file "
+			"description": "Save File As"
+			"code": ":saveas file"
 		},
 		"Close Current Pane",
-			"description: "Close Current Pane"
-			"code": ":close "
+			"description": "Close Current Pane"
+			"code": ":close"
 		},
 		"Open Man Page For Word Under The Cursor",
-			"description: "Open Man Page For Word Under The Cursor"
-			"code": "K "
+			"description": "Open Man Page For Word Under The Cursor"
+			"code": "K"
 		}
 
 		},
-		"Cursor Movement": {
+	"Cursor Movement": {
 		"Open Help For Keyword",
-			"description: "Open Help For Keyword"
-			"code": ":help keyword "
+			"description": "Open Help For Keyword"
+			"code": ":help keyword"
 		},
 		"Open File",
-			"description: "Open File"
-			"code": ":o file "
+			"description": "Open File"
+			"code": ":o file"
 		},
 		"Save File As",
-			"description: "Save File As"
-			"code": ":saveas file "
+			"description": "Save File As"
+			"code": ":saveas file"
 		},
 		"Close Current Pane",
-			"description: "Close Current Pane"
-			"code": ":close "
+			"description": "Close Current Pane"
+			"code": ":close"
 		},
 		"Open Man Page For Word Under The Cursor",
-			"description: "Open Man Page For Word Under The Cursor"
-			"code": "K "
+			"description": "Open Man Page For Word Under The Cursor"
+			"code": "K"
 		},
 		"Move Cursor Left",
-			"description: "Move Cursor Left"
-			"code": "h "
+			"description": "Move Cursor Left"
+			"code": "h"
 		},
 		"Move Cursor Down",
-			"description: "Move Cursor Down"
-			"code": "j "
+			"description": "Move Cursor Down"
+			"code": "j"
 		},
 		"Move Cursor Up",
-			"description: "Move Cursor Up"
-			"code": "k "
+			"description": "Move Cursor Up"
+			"code": "k"
 		},
 		"Move Cursor Right",
-			"description: "Move Cursor Right"
-			"code": "l "
+			"description": "Move Cursor Right"
+			"code": "l"
 		},
 		"Move To Top Of Screen",
-			"description: "Move To Top Of Screen"
-			"code": "H "
+			"description": "Move To Top Of Screen"
+			"code": "H"
 		},
 		"Move To Middle Of Screen",
-			"description: "Move To Middle Of Screen"
-			"code": "M "
+			"description": "Move To Middle Of Screen"
+			"code": "M"
 		},
 		"Move To Bottom Of Screen",
-			"description: "Move To Bottom Of Screen"
-			"code": "L "
+			"description": "Move To Bottom Of Screen"
+			"code": "L"
 		},
 		"Jump Forwards To The Start Of A Word",
-			"description: "Jump Forwards To The Start Of A Word"
-			"code": "w "
+			"description": "Jump Forwards To The Start Of A Word"
+			"code": "w"
 		},
 		"Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "W "
+			"description": "Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)"
+			"code": "W"
 		},
 		"Jump Forwards To The End Of A Word",
-			"description: "Jump Forwards To The End Of A Word"
-			"code": "e "
+			"description": "Jump Forwards To The End Of A Word"
+			"code": "e"
 		},
 		"Jump Forwards To The End Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The End Of A Word (Words Can Contain Punctuation)"
-			"code": "E "
+			"description": "Jump Forwards To The End Of A Word (Words Can Contain Punctuation)"
+			"code": "E"
 		},
 		"Jump Backwards To The Start Of A Word",
-			"description: "Jump Backwards To The Start Of A Word"
-			"code": "b "
+			"description": "Jump Backwards To The Start Of A Word"
+			"code": "b"
 		},
 		"Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "B "
+			"description": "Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)"
+			"code": "B"
 		},
 		"Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)",
-			"description: "Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)"
-			"code": "% "
+			"description": "Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)"
+			"code": "%"
 		},
 		"Jump To The Start Of The Line",
-			"description: "Jump To The Start Of The Line"
-			"code": "0 "
+			"description": "Jump To The Start Of The Line"
+			"code": "0"
 		},
 		"Jump To The First Non-Blank Character Of The Line",
-			"description: "Jump To The First Non-Blank Character Of The Line"
-			"code": "^ "
+			"description": "Jump To The First Non-Blank Character Of The Line"
+			"code": "^"
 		},
 		"Jump To The End Of The Line",
-			"description: "Jump To The End Of The Line"
-			"code": "$ "
+			"description": "Jump To The End Of The Line"
+			"code": "$"
 		},
 		"Jump To The Last Non-Blank Character Of The Line",
-			"description: "Jump To The Last Non-Blank Character Of The Line"
-			"code": "g_ "
+			"description": "Jump To The Last Non-Blank Character Of The Line"
+			"code": "g_"
 		},
 		"Go To The First Line Of The Document",
-			"description: "Go To The First Line Of The Document"
-			"code": "gg "
+			"description": "Go To The First Line Of The Document"
+			"code": "gg"
 		},
 		"Go To The Last Line Of The Document",
-			"description: "Go To The Last Line Of The Document"
-			"code": "G "
+			"description": "Go To The Last Line Of The Document"
+			"code": "G"
 		},
 		"Go To Line 5",
-			"description: "Go To Line 5"
-			"code": "5G "
+			"description": "Go To Line 5"
+			"code": "5G"
 		},
 		"Jump To Next Occurrence Of Character X",
-			"description: "Jump To Next Occurrence Of Character X"
-			"code": "fx "
+			"description": "Jump To Next Occurrence Of Character X"
+			"code": "fx"
 		},
 		"Jump To Before Next Occurrence Of Character X",
-			"description: "Jump To Before Next Occurrence Of Character X"
-			"code": "tx "
+			"description": "Jump To Before Next Occurrence Of Character X"
+			"code": "tx"
 		},
 		"Jump To Next Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Next Paragraph (Or Function/Block, When Editing Code)"
-			"code": "} "
+			"description": "Jump To Next Paragraph (Or Function/Block, When Editing Code)"
+			"code": "}"
 		},
 		"Jump To Previous Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Previous Paragraph (Or Function/Block, When Editing Code)"
-			"code": "{ "
-		},
-		"Center Cursor On Screen",
-			"description: "Center Cursor On Screen"
-			"code": "zz "
-		},
-		"Move Back One Full Screen",
-			"description: "Move Back One Full Screen"
-			"code": "Ctrl + b "
-		},
-		"Move Forward One Full Screen",
-			"description: "Move Forward One Full Screen"
-			"code": "Ctrl + f "
-		},
-		"Move Forward 1/2 A Screen",
-			"description: "Move Forward 1/2 A Screen"
-			"code": "Ctrl + d "
-		},
-		"Move Back 1/2 A Screen",
-			"description: "Move Back 1/2 A Screen"
-			"code": "Ctrl + u "
+			"description": "Jump To Previous Paragraph (Or Function/Block, When Editing Code)"
+			"code": "{"
 		}
 
 		},
-		"Insert Mode - Inserting/Appending Text": {
+	"Insert Mode - Inserting/Appending Text": {
 		"Open Help For Keyword",
-			"description: "Open Help For Keyword"
-			"code": ":help keyword "
+			"description": "Open Help For Keyword"
+			"code": ":help keyword"
 		},
 		"Open File",
-			"description: "Open File"
-			"code": ":o file "
+			"description": "Open File"
+			"code": ":o file"
 		},
 		"Save File As",
-			"description: "Save File As"
-			"code": ":saveas file "
+			"description": "Save File As"
+			"code": ":saveas file"
 		},
 		"Close Current Pane",
-			"description: "Close Current Pane"
-			"code": ":close "
+			"description": "Close Current Pane"
+			"code": ":close"
 		},
 		"Open Man Page For Word Under The Cursor",
-			"description: "Open Man Page For Word Under The Cursor"
-			"code": "K "
+			"description": "Open Man Page For Word Under The Cursor"
+			"code": "K"
 		},
 		"Move Cursor Left",
-			"description: "Move Cursor Left"
-			"code": "h "
+			"description": "Move Cursor Left"
+			"code": "h"
 		},
 		"Move Cursor Down",
-			"description: "Move Cursor Down"
-			"code": "j "
+			"description": "Move Cursor Down"
+			"code": "j"
 		},
 		"Move Cursor Up",
-			"description: "Move Cursor Up"
-			"code": "k "
-		},
-		"Move Cursor Right",
-			"description: "Move Cursor Right"
-			"code": "l "
-		},
-		"Move To Top Of Screen",
-			"description: "Move To Top Of Screen"
-			"code": "H "
-		},
-		"Move To Middle Of Screen",
-			"description: "Move To Middle Of Screen"
-			"code": "M "
-		},
-		"Move To Bottom Of Screen",
-			"description: "Move To Bottom Of Screen"
-			"code": "L "
-		},
-		"Jump Forwards To The Start Of A Word",
-			"description: "Jump Forwards To The Start Of A Word"
-			"code": "w "
-		},
-		"Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "W "
-		},
-		"Jump Forwards To The End Of A Word",
-			"description: "Jump Forwards To The End Of A Word"
-			"code": "e "
-		},
-		"Jump Forwards To The End Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The End Of A Word (Words Can Contain Punctuation)"
-			"code": "E "
-		},
-		"Jump Backwards To The Start Of A Word",
-			"description: "Jump Backwards To The Start Of A Word"
-			"code": "b "
-		},
-		"Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "B "
-		},
-		"Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)",
-			"description: "Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)"
-			"code": "% "
-		},
-		"Jump To The Start Of The Line",
-			"description: "Jump To The Start Of The Line"
-			"code": "0 "
-		},
-		"Jump To The First Non-Blank Character Of The Line",
-			"description: "Jump To The First Non-Blank Character Of The Line"
-			"code": "^ "
-		},
-		"Jump To The End Of The Line",
-			"description: "Jump To The End Of The Line"
-			"code": "$ "
-		},
-		"Jump To The Last Non-Blank Character Of The Line",
-			"description: "Jump To The Last Non-Blank Character Of The Line"
-			"code": "g_ "
-		},
-		"Go To The First Line Of The Document",
-			"description: "Go To The First Line Of The Document"
-			"code": "gg "
-		},
-		"Go To The Last Line Of The Document",
-			"description: "Go To The Last Line Of The Document"
-			"code": "G "
-		},
-		"Go To Line 5",
-			"description: "Go To Line 5"
-			"code": "5G "
-		},
-		"Jump To Next Occurrence Of Character X",
-			"description: "Jump To Next Occurrence Of Character X"
-			"code": "fx "
-		},
-		"Jump To Before Next Occurrence Of Character X",
-			"description: "Jump To Before Next Occurrence Of Character X"
-			"code": "tx "
-		},
-		"Jump To Next Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Next Paragraph (Or Function/Block, When Editing Code)"
-			"code": "} "
-		},
-		"Jump To Previous Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Previous Paragraph (Or Function/Block, When Editing Code)"
-			"code": "{ "
-		},
-		"Center Cursor On Screen",
-			"description: "Center Cursor On Screen"
-			"code": "zz "
-		},
-		"Move Back One Full Screen",
-			"description: "Move Back One Full Screen"
-			"code": "Ctrl + b "
-		},
-		"Move Forward One Full Screen",
-			"description: "Move Forward One Full Screen"
-			"code": "Ctrl + f "
-		},
-		"Move Forward 1/2 A Screen",
-			"description: "Move Forward 1/2 A Screen"
-			"code": "Ctrl + d "
-		},
-		"Move Back 1/2 A Screen",
-			"description: "Move Back 1/2 A Screen"
-			"code": "Ctrl + u "
-		},
-		"Insert Before The Cursor",
-			"description: "Insert Before The Cursor"
-			"code": "i "
-		},
-		"Insert At The Beginning Of The Line",
-			"description: "Insert At The Beginning Of The Line"
-			"code": "I "
-		},
-		"Insert (Append) After The Cursor",
-			"description: "Insert (Append) After The Cursor"
-			"code": "a "
-		},
-		"Insert (Append) At The End Of The Line",
-			"description: "Insert (Append) At The End Of The Line"
-			"code": "A "
-		},
-		"Append (Open) A New Line Below The Current Line",
-			"description: "Append (Open) A New Line Below The Current Line"
-			"code": "o "
-		},
-		"Append (Open) A New Line Above The Current Line",
-			"description: "Append (Open) A New Line Above The Current Line"
-			"code": "O "
-		},
-		"Insert (Append) At The End Of The Word",
-			"description: "Insert (Append) At The End Of The Word"
-			"code": "ea "
-		},
-		"Exit Insert Mode",
-			"description: "Exit Insert Mode"
-			"code": "Esc "
+			"description": "Move Cursor Up"
+			"code": "k"
 		}
 
 		},
-		"Editing": {
+	"Editing": {
 		"Open Help For Keyword",
-			"description: "Open Help For Keyword"
-			"code": ":help keyword "
+			"description": "Open Help For Keyword"
+			"code": ":help keyword"
 		},
 		"Open File",
-			"description: "Open File"
-			"code": ":o file "
+			"description": "Open File"
+			"code": ":o file"
 		},
 		"Save File As",
-			"description: "Save File As"
-			"code": ":saveas file "
+			"description": "Save File As"
+			"code": ":saveas file"
 		},
 		"Close Current Pane",
-			"description: "Close Current Pane"
-			"code": ":close "
+			"description": "Close Current Pane"
+			"code": ":close"
 		},
 		"Open Man Page For Word Under The Cursor",
-			"description: "Open Man Page For Word Under The Cursor"
-			"code": "K "
+			"description": "Open Man Page For Word Under The Cursor"
+			"code": "K"
 		},
 		"Move Cursor Left",
-			"description: "Move Cursor Left"
-			"code": "h "
+			"description": "Move Cursor Left"
+			"code": "h"
 		},
 		"Move Cursor Down",
-			"description: "Move Cursor Down"
-			"code": "j "
+			"description": "Move Cursor Down"
+			"code": "j"
 		},
 		"Move Cursor Up",
-			"description: "Move Cursor Up"
-			"code": "k "
+			"description": "Move Cursor Up"
+			"code": "k"
 		},
 		"Move Cursor Right",
-			"description: "Move Cursor Right"
-			"code": "l "
+			"description": "Move Cursor Right"
+			"code": "l"
 		},
 		"Move To Top Of Screen",
-			"description: "Move To Top Of Screen"
-			"code": "H "
+			"description": "Move To Top Of Screen"
+			"code": "H"
 		},
 		"Move To Middle Of Screen",
-			"description: "Move To Middle Of Screen"
-			"code": "M "
-		},
-		"Move To Bottom Of Screen",
-			"description: "Move To Bottom Of Screen"
-			"code": "L "
-		},
-		"Jump Forwards To The Start Of A Word",
-			"description: "Jump Forwards To The Start Of A Word"
-			"code": "w "
-		},
-		"Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "W "
-		},
-		"Jump Forwards To The End Of A Word",
-			"description: "Jump Forwards To The End Of A Word"
-			"code": "e "
-		},
-		"Jump Forwards To The End Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The End Of A Word (Words Can Contain Punctuation)"
-			"code": "E "
-		},
-		"Jump Backwards To The Start Of A Word",
-			"description: "Jump Backwards To The Start Of A Word"
-			"code": "b "
-		},
-		"Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "B "
-		},
-		"Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)",
-			"description: "Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)"
-			"code": "% "
-		},
-		"Jump To The Start Of The Line",
-			"description: "Jump To The Start Of The Line"
-			"code": "0 "
-		},
-		"Jump To The First Non-Blank Character Of The Line",
-			"description: "Jump To The First Non-Blank Character Of The Line"
-			"code": "^ "
-		},
-		"Jump To The End Of The Line",
-			"description: "Jump To The End Of The Line"
-			"code": "$ "
-		},
-		"Jump To The Last Non-Blank Character Of The Line",
-			"description: "Jump To The Last Non-Blank Character Of The Line"
-			"code": "g_ "
-		},
-		"Go To The First Line Of The Document",
-			"description: "Go To The First Line Of The Document"
-			"code": "gg "
-		},
-		"Go To The Last Line Of The Document",
-			"description: "Go To The Last Line Of The Document"
-			"code": "G "
-		},
-		"Go To Line 5",
-			"description: "Go To Line 5"
-			"code": "5G "
-		},
-		"Jump To Next Occurrence Of Character X",
-			"description: "Jump To Next Occurrence Of Character X"
-			"code": "fx "
-		},
-		"Jump To Before Next Occurrence Of Character X",
-			"description: "Jump To Before Next Occurrence Of Character X"
-			"code": "tx "
-		},
-		"Jump To Next Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Next Paragraph (Or Function/Block, When Editing Code)"
-			"code": "} "
-		},
-		"Jump To Previous Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Previous Paragraph (Or Function/Block, When Editing Code)"
-			"code": "{ "
-		},
-		"Center Cursor On Screen",
-			"description: "Center Cursor On Screen"
-			"code": "zz "
-		},
-		"Move Back One Full Screen",
-			"description: "Move Back One Full Screen"
-			"code": "Ctrl + b "
-		},
-		"Move Forward One Full Screen",
-			"description: "Move Forward One Full Screen"
-			"code": "Ctrl + f "
-		},
-		"Move Forward 1/2 A Screen",
-			"description: "Move Forward 1/2 A Screen"
-			"code": "Ctrl + d "
-		},
-		"Move Back 1/2 A Screen",
-			"description: "Move Back 1/2 A Screen"
-			"code": "Ctrl + u "
-		},
-		"Insert Before The Cursor",
-			"description: "Insert Before The Cursor"
-			"code": "i "
-		},
-		"Insert At The Beginning Of The Line",
-			"description: "Insert At The Beginning Of The Line"
-			"code": "I "
-		},
-		"Insert (Append) After The Cursor",
-			"description: "Insert (Append) After The Cursor"
-			"code": "a "
-		},
-		"Insert (Append) At The End Of The Line",
-			"description: "Insert (Append) At The End Of The Line"
-			"code": "A "
-		},
-		"Append (Open) A New Line Below The Current Line",
-			"description: "Append (Open) A New Line Below The Current Line"
-			"code": "o "
-		},
-		"Append (Open) A New Line Above The Current Line",
-			"description: "Append (Open) A New Line Above The Current Line"
-			"code": "O "
-		},
-		"Insert (Append) At The End Of The Word",
-			"description: "Insert (Append) At The End Of The Word"
-			"code": "ea "
-		},
-		"Exit Insert Mode",
-			"description: "Exit Insert Mode"
-			"code": "Esc "
-		},
-		"Replace A Single Character",
-			"description: "Replace A Single Character"
-			"code": "r "
-		},
-		"Join Line Below To The Current One",
-			"description: "Join Line Below To The Current One"
-			"code": "J "
-		},
-		"Change (Replace) Entire Line",
-			"description: "Change (Replace) Entire Line"
-			"code": "cc "
-		},
-		"Change (Replace) To The End Of The Word",
-			"description: "Change (Replace) To The End Of The Word"
-			"code": "cw "
-		},
-		"Change (Replace) To The End Of The Line",
-			"description: "Change (Replace) To The End Of The Line"
-			"code": "c$ "
-		},
-		"Delete Character And Substitute Text",
-			"description: "Delete Character And Substitute Text"
-			"code": "s "
-		},
-		"Delete Line And Substitute Text (Same As Cc)",
-			"description: "Delete Line And Substitute Text (Same As Cc)"
-			"code": "S "
-		},
-		"Transpose Two Letters (Delete And Paste)",
-			"description: "Transpose Two Letters (Delete And Paste)"
-			"code": "xp "
-		},
-		"Undo",
-			"description: "Undo"
-			"code": "u "
-		},
-		"Redo",
-			"description: "Redo"
-			"code": "Ctrl + r "
-		},
-		"Repeat Last Command",
-			"description: "Repeat Last Command"
-			"code": ". "
+			"description": "Move To Middle Of Screen"
+			"code": "M"
 		}
 
 		},
-		"Marking Text (Visual Mode)": {
+	"Marking Text (Visual Mode)": {
 		"Open Help For Keyword",
-			"description: "Open Help For Keyword"
-			"code": ":help keyword "
+			"description": "Open Help For Keyword"
+			"code": ":help keyword"
 		},
 		"Open File",
-			"description: "Open File"
-			"code": ":o file "
+			"description": "Open File"
+			"code": ":o file"
 		},
 		"Save File As",
-			"description: "Save File As"
-			"code": ":saveas file "
+			"description": "Save File As"
+			"code": ":saveas file"
 		},
 		"Close Current Pane",
-			"description: "Close Current Pane"
-			"code": ":close "
+			"description": "Close Current Pane"
+			"code": ":close"
 		},
 		"Open Man Page For Word Under The Cursor",
-			"description: "Open Man Page For Word Under The Cursor"
-			"code": "K "
+			"description": "Open Man Page For Word Under The Cursor"
+			"code": "K"
 		},
 		"Move Cursor Left",
-			"description: "Move Cursor Left"
-			"code": "h "
+			"description": "Move Cursor Left"
+			"code": "h"
 		},
 		"Move Cursor Down",
-			"description: "Move Cursor Down"
-			"code": "j "
+			"description": "Move Cursor Down"
+			"code": "j"
 		},
 		"Move Cursor Up",
-			"description: "Move Cursor Up"
-			"code": "k "
+			"description": "Move Cursor Up"
+			"code": "k"
 		},
 		"Move Cursor Right",
-			"description: "Move Cursor Right"
-			"code": "l "
+			"description": "Move Cursor Right"
+			"code": "l"
 		},
 		"Move To Top Of Screen",
-			"description: "Move To Top Of Screen"
-			"code": "H "
+			"description": "Move To Top Of Screen"
+			"code": "H"
 		},
 		"Move To Middle Of Screen",
-			"description: "Move To Middle Of Screen"
-			"code": "M "
-		},
-		"Move To Bottom Of Screen",
-			"description: "Move To Bottom Of Screen"
-			"code": "L "
-		},
-		"Jump Forwards To The Start Of A Word",
-			"description: "Jump Forwards To The Start Of A Word"
-			"code": "w "
-		},
-		"Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "W "
-		},
-		"Jump Forwards To The End Of A Word",
-			"description: "Jump Forwards To The End Of A Word"
-			"code": "e "
-		},
-		"Jump Forwards To The End Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The End Of A Word (Words Can Contain Punctuation)"
-			"code": "E "
-		},
-		"Jump Backwards To The Start Of A Word",
-			"description: "Jump Backwards To The Start Of A Word"
-			"code": "b "
-		},
-		"Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "B "
-		},
-		"Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)",
-			"description: "Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)"
-			"code": "% "
-		},
-		"Jump To The Start Of The Line",
-			"description: "Jump To The Start Of The Line"
-			"code": "0 "
-		},
-		"Jump To The First Non-Blank Character Of The Line",
-			"description: "Jump To The First Non-Blank Character Of The Line"
-			"code": "^ "
-		},
-		"Jump To The End Of The Line",
-			"description: "Jump To The End Of The Line"
-			"code": "$ "
-		},
-		"Jump To The Last Non-Blank Character Of The Line",
-			"description: "Jump To The Last Non-Blank Character Of The Line"
-			"code": "g_ "
-		},
-		"Go To The First Line Of The Document",
-			"description: "Go To The First Line Of The Document"
-			"code": "gg "
-		},
-		"Go To The Last Line Of The Document",
-			"description: "Go To The Last Line Of The Document"
-			"code": "G "
-		},
-		"Go To Line 5",
-			"description: "Go To Line 5"
-			"code": "5G "
-		},
-		"Jump To Next Occurrence Of Character X",
-			"description: "Jump To Next Occurrence Of Character X"
-			"code": "fx "
-		},
-		"Jump To Before Next Occurrence Of Character X",
-			"description: "Jump To Before Next Occurrence Of Character X"
-			"code": "tx "
-		},
-		"Jump To Next Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Next Paragraph (Or Function/Block, When Editing Code)"
-			"code": "} "
-		},
-		"Jump To Previous Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Previous Paragraph (Or Function/Block, When Editing Code)"
-			"code": "{ "
-		},
-		"Center Cursor On Screen",
-			"description: "Center Cursor On Screen"
-			"code": "zz "
-		},
-		"Move Back One Full Screen",
-			"description: "Move Back One Full Screen"
-			"code": "Ctrl + b "
-		},
-		"Move Forward One Full Screen",
-			"description: "Move Forward One Full Screen"
-			"code": "Ctrl + f "
-		},
-		"Move Forward 1/2 A Screen",
-			"description: "Move Forward 1/2 A Screen"
-			"code": "Ctrl + d "
-		},
-		"Move Back 1/2 A Screen",
-			"description: "Move Back 1/2 A Screen"
-			"code": "Ctrl + u "
-		},
-		"Insert Before The Cursor",
-			"description: "Insert Before The Cursor"
-			"code": "i "
-		},
-		"Insert At The Beginning Of The Line",
-			"description: "Insert At The Beginning Of The Line"
-			"code": "I "
-		},
-		"Insert (Append) After The Cursor",
-			"description: "Insert (Append) After The Cursor"
-			"code": "a "
-		},
-		"Insert (Append) At The End Of The Line",
-			"description: "Insert (Append) At The End Of The Line"
-			"code": "A "
-		},
-		"Append (Open) A New Line Below The Current Line",
-			"description: "Append (Open) A New Line Below The Current Line"
-			"code": "o "
-		},
-		"Append (Open) A New Line Above The Current Line",
-			"description: "Append (Open) A New Line Above The Current Line"
-			"code": "O "
-		},
-		"Insert (Append) At The End Of The Word",
-			"description: "Insert (Append) At The End Of The Word"
-			"code": "ea "
-		},
-		"Exit Insert Mode",
-			"description: "Exit Insert Mode"
-			"code": "Esc "
-		},
-		"Replace A Single Character",
-			"description: "Replace A Single Character"
-			"code": "r "
-		},
-		"Join Line Below To The Current One",
-			"description: "Join Line Below To The Current One"
-			"code": "J "
-		},
-		"Change (Replace) Entire Line",
-			"description: "Change (Replace) Entire Line"
-			"code": "cc "
-		},
-		"Change (Replace) To The End Of The Word",
-			"description: "Change (Replace) To The End Of The Word"
-			"code": "cw "
-		},
-		"Change (Replace) To The End Of The Line",
-			"description: "Change (Replace) To The End Of The Line"
-			"code": "c$ "
-		},
-		"Delete Character And Substitute Text",
-			"description: "Delete Character And Substitute Text"
-			"code": "s "
-		},
-		"Delete Line And Substitute Text (Same As Cc)",
-			"description: "Delete Line And Substitute Text (Same As Cc)"
-			"code": "S "
-		},
-		"Transpose Two Letters (Delete And Paste)",
-			"description: "Transpose Two Letters (Delete And Paste)"
-			"code": "xp "
-		},
-		"Undo",
-			"description: "Undo"
-			"code": "u "
-		},
-		"Redo",
-			"description: "Redo"
-			"code": "Ctrl + r "
-		},
-		"Repeat Last Command",
-			"description: "Repeat Last Command"
-			"code": ". "
-		},
-		"Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)",
-			"description: "Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)"
-			"code": "v "
-		},
-		"Start Linewise Visual Mode",
-			"description: "Start Linewise Visual Mode"
-			"code": "V "
-		},
-		"Move To Other End Of Marked Area",
-			"description: "Move To Other End Of Marked Area"
-			"code": "o "
-		},
-		"Start Visual Block Mode",
-			"description: "Start Visual Block Mode"
-			"code": "Ctrl + v "
-		},
-		"Move To Other Corner Of Block",
-			"description: "Move To Other Corner Of Block"
-			"code": "O "
-		},
-		"Mark A Word",
-			"description: "Mark A Word"
-			"code": "aw "
-		},
-		"A Block With ()",
-			"description: "A Block With ()"
-			"code": "ab "
-		},
-		"A Block With {}",
-			"description: "A Block With {}"
-			"code": "aB "
-		},
-		"Inner Block With ()",
-			"description: "Inner Block With ()"
-			"code": "ib "
-		},
-		"Inner Block With {}",
-			"description: "Inner Block With {}"
-			"code": "iB "
-		},
-		"Exit Visual Mode",
-			"description: "Exit Visual Mode"
-			"code": "Esc "
+			"description": "Move To Middle Of Screen"
+			"code": "M"
 		}
 
 		},
-		"Visual Commands": {
+	"Visual Commands": {
 		"Open Help For Keyword",
-			"description: "Open Help For Keyword"
-			"code": ":help keyword "
+			"description": "Open Help For Keyword"
+			"code": ":help keyword"
 		},
 		"Open File",
-			"description: "Open File"
-			"code": ":o file "
+			"description": "Open File"
+			"code": ":o file"
 		},
 		"Save File As",
-			"description: "Save File As"
-			"code": ":saveas file "
+			"description": "Save File As"
+			"code": ":saveas file"
 		},
 		"Close Current Pane",
-			"description: "Close Current Pane"
-			"code": ":close "
+			"description": "Close Current Pane"
+			"code": ":close"
 		},
 		"Open Man Page For Word Under The Cursor",
-			"description: "Open Man Page For Word Under The Cursor"
-			"code": "K "
-		},
-		"Move Cursor Left",
-			"description: "Move Cursor Left"
-			"code": "h "
-		},
-		"Move Cursor Down",
-			"description: "Move Cursor Down"
-			"code": "j "
-		},
-		"Move Cursor Up",
-			"description: "Move Cursor Up"
-			"code": "k "
-		},
-		"Move Cursor Right",
-			"description: "Move Cursor Right"
-			"code": "l "
-		},
-		"Move To Top Of Screen",
-			"description: "Move To Top Of Screen"
-			"code": "H "
-		},
-		"Move To Middle Of Screen",
-			"description: "Move To Middle Of Screen"
-			"code": "M "
-		},
-		"Move To Bottom Of Screen",
-			"description: "Move To Bottom Of Screen"
-			"code": "L "
-		},
-		"Jump Forwards To The Start Of A Word",
-			"description: "Jump Forwards To The Start Of A Word"
-			"code": "w "
-		},
-		"Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "W "
-		},
-		"Jump Forwards To The End Of A Word",
-			"description: "Jump Forwards To The End Of A Word"
-			"code": "e "
-		},
-		"Jump Forwards To The End Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The End Of A Word (Words Can Contain Punctuation)"
-			"code": "E "
-		},
-		"Jump Backwards To The Start Of A Word",
-			"description: "Jump Backwards To The Start Of A Word"
-			"code": "b "
-		},
-		"Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "B "
-		},
-		"Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)",
-			"description: "Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)"
-			"code": "% "
-		},
-		"Jump To The Start Of The Line",
-			"description: "Jump To The Start Of The Line"
-			"code": "0 "
-		},
-		"Jump To The First Non-Blank Character Of The Line",
-			"description: "Jump To The First Non-Blank Character Of The Line"
-			"code": "^ "
-		},
-		"Jump To The End Of The Line",
-			"description: "Jump To The End Of The Line"
-			"code": "$ "
-		},
-		"Jump To The Last Non-Blank Character Of The Line",
-			"description: "Jump To The Last Non-Blank Character Of The Line"
-			"code": "g_ "
-		},
-		"Go To The First Line Of The Document",
-			"description: "Go To The First Line Of The Document"
-			"code": "gg "
-		},
-		"Go To The Last Line Of The Document",
-			"description: "Go To The Last Line Of The Document"
-			"code": "G "
-		},
-		"Go To Line 5",
-			"description: "Go To Line 5"
-			"code": "5G "
-		},
-		"Jump To Next Occurrence Of Character X",
-			"description: "Jump To Next Occurrence Of Character X"
-			"code": "fx "
-		},
-		"Jump To Before Next Occurrence Of Character X",
-			"description: "Jump To Before Next Occurrence Of Character X"
-			"code": "tx "
-		},
-		"Jump To Next Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Next Paragraph (Or Function/Block, When Editing Code)"
-			"code": "} "
-		},
-		"Jump To Previous Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Previous Paragraph (Or Function/Block, When Editing Code)"
-			"code": "{ "
-		},
-		"Center Cursor On Screen",
-			"description: "Center Cursor On Screen"
-			"code": "zz "
-		},
-		"Move Back One Full Screen",
-			"description: "Move Back One Full Screen"
-			"code": "Ctrl + b "
-		},
-		"Move Forward One Full Screen",
-			"description: "Move Forward One Full Screen"
-			"code": "Ctrl + f "
-		},
-		"Move Forward 1/2 A Screen",
-			"description: "Move Forward 1/2 A Screen"
-			"code": "Ctrl + d "
-		},
-		"Move Back 1/2 A Screen",
-			"description: "Move Back 1/2 A Screen"
-			"code": "Ctrl + u "
-		},
-		"Insert Before The Cursor",
-			"description: "Insert Before The Cursor"
-			"code": "i "
-		},
-		"Insert At The Beginning Of The Line",
-			"description: "Insert At The Beginning Of The Line"
-			"code": "I "
-		},
-		"Insert (Append) After The Cursor",
-			"description: "Insert (Append) After The Cursor"
-			"code": "a "
-		},
-		"Insert (Append) At The End Of The Line",
-			"description: "Insert (Append) At The End Of The Line"
-			"code": "A "
-		},
-		"Append (Open) A New Line Below The Current Line",
-			"description: "Append (Open) A New Line Below The Current Line"
-			"code": "o "
-		},
-		"Append (Open) A New Line Above The Current Line",
-			"description: "Append (Open) A New Line Above The Current Line"
-			"code": "O "
-		},
-		"Insert (Append) At The End Of The Word",
-			"description: "Insert (Append) At The End Of The Word"
-			"code": "ea "
-		},
-		"Exit Insert Mode",
-			"description: "Exit Insert Mode"
-			"code": "Esc "
-		},
-		"Replace A Single Character",
-			"description: "Replace A Single Character"
-			"code": "r "
-		},
-		"Join Line Below To The Current One",
-			"description: "Join Line Below To The Current One"
-			"code": "J "
-		},
-		"Change (Replace) Entire Line",
-			"description: "Change (Replace) Entire Line"
-			"code": "cc "
-		},
-		"Change (Replace) To The End Of The Word",
-			"description: "Change (Replace) To The End Of The Word"
-			"code": "cw "
-		},
-		"Change (Replace) To The End Of The Line",
-			"description: "Change (Replace) To The End Of The Line"
-			"code": "c$ "
-		},
-		"Delete Character And Substitute Text",
-			"description: "Delete Character And Substitute Text"
-			"code": "s "
-		},
-		"Delete Line And Substitute Text (Same As Cc)",
-			"description: "Delete Line And Substitute Text (Same As Cc)"
-			"code": "S "
-		},
-		"Transpose Two Letters (Delete And Paste)",
-			"description: "Transpose Two Letters (Delete And Paste)"
-			"code": "xp "
-		},
-		"Undo",
-			"description: "Undo"
-			"code": "u "
-		},
-		"Redo",
-			"description: "Redo"
-			"code": "Ctrl + r "
-		},
-		"Repeat Last Command",
-			"description: "Repeat Last Command"
-			"code": ". "
-		},
-		"Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)",
-			"description: "Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)"
-			"code": "v "
-		},
-		"Start Linewise Visual Mode",
-			"description: "Start Linewise Visual Mode"
-			"code": "V "
-		},
-		"Move To Other End Of Marked Area",
-			"description: "Move To Other End Of Marked Area"
-			"code": "o "
-		},
-		"Start Visual Block Mode",
-			"description: "Start Visual Block Mode"
-			"code": "Ctrl + v "
-		},
-		"Move To Other Corner Of Block",
-			"description: "Move To Other Corner Of Block"
-			"code": "O "
-		},
-		"Mark A Word",
-			"description: "Mark A Word"
-			"code": "aw "
-		},
-		"A Block With ()",
-			"description: "A Block With ()"
-			"code": "ab "
-		},
-		"A Block With {}",
-			"description: "A Block With {}"
-			"code": "aB "
-		},
-		"Inner Block With ()",
-			"description: "Inner Block With ()"
-			"code": "ib "
-		},
-		"Inner Block With {}",
-			"description: "Inner Block With {}"
-			"code": "iB "
-		},
-		"Exit Visual Mode",
-			"description: "Exit Visual Mode"
-			"code": "Esc "
-		},
-		"Shift Text Right",
-			"description: "Shift Text Right"
-			"code": "&gt; "
-		},
-		"Shift Text Left",
-			"description: "Shift Text Left"
-			"code": "&lt; "
-		},
-		"Yank (Copy) Marked Text",
-			"description: "Yank (Copy) Marked Text"
-			"code": "y "
-		},
-		"Delete Marked Text",
-			"description: "Delete Marked Text"
-			"code": "d "
-		},
-		"Switch Case",
-			"description: "Switch Case"
-			"code": "~ "
+			"description": "Open Man Page For Word Under The Cursor"
+			"code": "K"
 		}
 
 		},
-		"Registers": {
+	"Registers": {
 		"Open Help For Keyword",
-			"description: "Open Help For Keyword"
-			"code": ":help keyword "
+			"description": "Open Help For Keyword"
+			"code": ":help keyword"
 		},
 		"Open File",
-			"description: "Open File"
-			"code": ":o file "
+			"description": "Open File"
+			"code": ":o file"
 		},
 		"Save File As",
-			"description: "Save File As"
-			"code": ":saveas file "
-		},
-		"Close Current Pane",
-			"description: "Close Current Pane"
-			"code": ":close "
-		},
-		"Open Man Page For Word Under The Cursor",
-			"description: "Open Man Page For Word Under The Cursor"
-			"code": "K "
-		},
-		"Move Cursor Left",
-			"description: "Move Cursor Left"
-			"code": "h "
-		},
-		"Move Cursor Down",
-			"description: "Move Cursor Down"
-			"code": "j "
-		},
-		"Move Cursor Up",
-			"description: "Move Cursor Up"
-			"code": "k "
-		},
-		"Move Cursor Right",
-			"description: "Move Cursor Right"
-			"code": "l "
-		},
-		"Move To Top Of Screen",
-			"description: "Move To Top Of Screen"
-			"code": "H "
-		},
-		"Move To Middle Of Screen",
-			"description: "Move To Middle Of Screen"
-			"code": "M "
-		},
-		"Move To Bottom Of Screen",
-			"description: "Move To Bottom Of Screen"
-			"code": "L "
-		},
-		"Jump Forwards To The Start Of A Word",
-			"description: "Jump Forwards To The Start Of A Word"
-			"code": "w "
-		},
-		"Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "W "
-		},
-		"Jump Forwards To The End Of A Word",
-			"description: "Jump Forwards To The End Of A Word"
-			"code": "e "
-		},
-		"Jump Forwards To The End Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The End Of A Word (Words Can Contain Punctuation)"
-			"code": "E "
-		},
-		"Jump Backwards To The Start Of A Word",
-			"description: "Jump Backwards To The Start Of A Word"
-			"code": "b "
-		},
-		"Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "B "
-		},
-		"Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)",
-			"description: "Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)"
-			"code": "% "
-		},
-		"Jump To The Start Of The Line",
-			"description: "Jump To The Start Of The Line"
-			"code": "0 "
-		},
-		"Jump To The First Non-Blank Character Of The Line",
-			"description: "Jump To The First Non-Blank Character Of The Line"
-			"code": "^ "
-		},
-		"Jump To The End Of The Line",
-			"description: "Jump To The End Of The Line"
-			"code": "$ "
-		},
-		"Jump To The Last Non-Blank Character Of The Line",
-			"description: "Jump To The Last Non-Blank Character Of The Line"
-			"code": "g_ "
-		},
-		"Go To The First Line Of The Document",
-			"description: "Go To The First Line Of The Document"
-			"code": "gg "
-		},
-		"Go To The Last Line Of The Document",
-			"description: "Go To The Last Line Of The Document"
-			"code": "G "
-		},
-		"Go To Line 5",
-			"description: "Go To Line 5"
-			"code": "5G "
-		},
-		"Jump To Next Occurrence Of Character X",
-			"description: "Jump To Next Occurrence Of Character X"
-			"code": "fx "
-		},
-		"Jump To Before Next Occurrence Of Character X",
-			"description: "Jump To Before Next Occurrence Of Character X"
-			"code": "tx "
-		},
-		"Jump To Next Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Next Paragraph (Or Function/Block, When Editing Code)"
-			"code": "} "
-		},
-		"Jump To Previous Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Previous Paragraph (Or Function/Block, When Editing Code)"
-			"code": "{ "
-		},
-		"Center Cursor On Screen",
-			"description: "Center Cursor On Screen"
-			"code": "zz "
-		},
-		"Move Back One Full Screen",
-			"description: "Move Back One Full Screen"
-			"code": "Ctrl + b "
-		},
-		"Move Forward One Full Screen",
-			"description: "Move Forward One Full Screen"
-			"code": "Ctrl + f "
-		},
-		"Move Forward 1/2 A Screen",
-			"description: "Move Forward 1/2 A Screen"
-			"code": "Ctrl + d "
-		},
-		"Move Back 1/2 A Screen",
-			"description: "Move Back 1/2 A Screen"
-			"code": "Ctrl + u "
-		},
-		"Insert Before The Cursor",
-			"description: "Insert Before The Cursor"
-			"code": "i "
-		},
-		"Insert At The Beginning Of The Line",
-			"description: "Insert At The Beginning Of The Line"
-			"code": "I "
-		},
-		"Insert (Append) After The Cursor",
-			"description: "Insert (Append) After The Cursor"
-			"code": "a "
-		},
-		"Insert (Append) At The End Of The Line",
-			"description: "Insert (Append) At The End Of The Line"
-			"code": "A "
-		},
-		"Append (Open) A New Line Below The Current Line",
-			"description: "Append (Open) A New Line Below The Current Line"
-			"code": "o "
-		},
-		"Append (Open) A New Line Above The Current Line",
-			"description: "Append (Open) A New Line Above The Current Line"
-			"code": "O "
-		},
-		"Insert (Append) At The End Of The Word",
-			"description: "Insert (Append) At The End Of The Word"
-			"code": "ea "
-		},
-		"Exit Insert Mode",
-			"description: "Exit Insert Mode"
-			"code": "Esc "
-		},
-		"Replace A Single Character",
-			"description: "Replace A Single Character"
-			"code": "r "
-		},
-		"Join Line Below To The Current One",
-			"description: "Join Line Below To The Current One"
-			"code": "J "
-		},
-		"Change (Replace) Entire Line",
-			"description: "Change (Replace) Entire Line"
-			"code": "cc "
-		},
-		"Change (Replace) To The End Of The Word",
-			"description: "Change (Replace) To The End Of The Word"
-			"code": "cw "
-		},
-		"Change (Replace) To The End Of The Line",
-			"description: "Change (Replace) To The End Of The Line"
-			"code": "c$ "
-		},
-		"Delete Character And Substitute Text",
-			"description: "Delete Character And Substitute Text"
-			"code": "s "
-		},
-		"Delete Line And Substitute Text (Same As Cc)",
-			"description: "Delete Line And Substitute Text (Same As Cc)"
-			"code": "S "
-		},
-		"Transpose Two Letters (Delete And Paste)",
-			"description: "Transpose Two Letters (Delete And Paste)"
-			"code": "xp "
-		},
-		"Undo",
-			"description: "Undo"
-			"code": "u "
-		},
-		"Redo",
-			"description: "Redo"
-			"code": "Ctrl + r "
-		},
-		"Repeat Last Command",
-			"description: "Repeat Last Command"
-			"code": ". "
-		},
-		"Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)",
-			"description: "Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)"
-			"code": "v "
-		},
-		"Start Linewise Visual Mode",
-			"description: "Start Linewise Visual Mode"
-			"code": "V "
-		},
-		"Move To Other End Of Marked Area",
-			"description: "Move To Other End Of Marked Area"
-			"code": "o "
-		},
-		"Start Visual Block Mode",
-			"description: "Start Visual Block Mode"
-			"code": "Ctrl + v "
-		},
-		"Move To Other Corner Of Block",
-			"description: "Move To Other Corner Of Block"
-			"code": "O "
-		},
-		"Mark A Word",
-			"description: "Mark A Word"
-			"code": "aw "
-		},
-		"A Block With ()",
-			"description: "A Block With ()"
-			"code": "ab "
-		},
-		"A Block With {}",
-			"description: "A Block With {}"
-			"code": "aB "
-		},
-		"Inner Block With ()",
-			"description: "Inner Block With ()"
-			"code": "ib "
-		},
-		"Inner Block With {}",
-			"description: "Inner Block With {}"
-			"code": "iB "
-		},
-		"Exit Visual Mode",
-			"description: "Exit Visual Mode"
-			"code": "Esc "
-		},
-		"Shift Text Right",
-			"description: "Shift Text Right"
-			"code": "&gt; "
-		},
-		"Shift Text Left",
-			"description: "Shift Text Left"
-			"code": "&lt; "
-		},
-		"Yank (Copy) Marked Text",
-			"description: "Yank (Copy) Marked Text"
-			"code": "y "
-		},
-		"Delete Marked Text",
-			"description: "Delete Marked Text"
-			"code": "d "
-		},
-		"Switch Case",
-			"description: "Switch Case"
-			"code": "~ "
-		},
-		"Show Registers Content",
-			"description: "Show Registers Content"
-			"code": ":reg "
-		},
-		"Yank Into Register X",
-			"description: "Yank Into Register X"
-			"code": ""xy "
-		},
-		"Paste Contents Of Register X",
-			"description: "Paste Contents Of Register X"
-			"code": ""xp "
+			"description": "Save File As"
+			"code": ":saveas file"
 		}
 
 		},
-		"Marks": {
+	"Marks": {
 		"Open Help For Keyword",
-			"description: "Open Help For Keyword"
-			"code": ":help keyword "
+			"description": "Open Help For Keyword"
+			"code": ":help keyword"
 		},
 		"Open File",
-			"description: "Open File"
-			"code": ":o file "
+			"description": "Open File"
+			"code": ":o file"
 		},
 		"Save File As",
-			"description: "Save File As"
-			"code": ":saveas file "
+			"description": "Save File As"
+			"code": ":saveas file"
 		},
 		"Close Current Pane",
-			"description: "Close Current Pane"
-			"code": ":close "
-		},
-		"Open Man Page For Word Under The Cursor",
-			"description: "Open Man Page For Word Under The Cursor"
-			"code": "K "
-		},
-		"Move Cursor Left",
-			"description: "Move Cursor Left"
-			"code": "h "
-		},
-		"Move Cursor Down",
-			"description: "Move Cursor Down"
-			"code": "j "
-		},
-		"Move Cursor Up",
-			"description: "Move Cursor Up"
-			"code": "k "
-		},
-		"Move Cursor Right",
-			"description: "Move Cursor Right"
-			"code": "l "
-		},
-		"Move To Top Of Screen",
-			"description: "Move To Top Of Screen"
-			"code": "H "
-		},
-		"Move To Middle Of Screen",
-			"description: "Move To Middle Of Screen"
-			"code": "M "
-		},
-		"Move To Bottom Of Screen",
-			"description: "Move To Bottom Of Screen"
-			"code": "L "
-		},
-		"Jump Forwards To The Start Of A Word",
-			"description: "Jump Forwards To The Start Of A Word"
-			"code": "w "
-		},
-		"Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "W "
-		},
-		"Jump Forwards To The End Of A Word",
-			"description: "Jump Forwards To The End Of A Word"
-			"code": "e "
-		},
-		"Jump Forwards To The End Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The End Of A Word (Words Can Contain Punctuation)"
-			"code": "E "
-		},
-		"Jump Backwards To The Start Of A Word",
-			"description: "Jump Backwards To The Start Of A Word"
-			"code": "b "
-		},
-		"Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "B "
-		},
-		"Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)",
-			"description: "Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)"
-			"code": "% "
-		},
-		"Jump To The Start Of The Line",
-			"description: "Jump To The Start Of The Line"
-			"code": "0 "
-		},
-		"Jump To The First Non-Blank Character Of The Line",
-			"description: "Jump To The First Non-Blank Character Of The Line"
-			"code": "^ "
-		},
-		"Jump To The End Of The Line",
-			"description: "Jump To The End Of The Line"
-			"code": "$ "
-		},
-		"Jump To The Last Non-Blank Character Of The Line",
-			"description: "Jump To The Last Non-Blank Character Of The Line"
-			"code": "g_ "
-		},
-		"Go To The First Line Of The Document",
-			"description: "Go To The First Line Of The Document"
-			"code": "gg "
-		},
-		"Go To The Last Line Of The Document",
-			"description: "Go To The Last Line Of The Document"
-			"code": "G "
-		},
-		"Go To Line 5",
-			"description: "Go To Line 5"
-			"code": "5G "
-		},
-		"Jump To Next Occurrence Of Character X",
-			"description: "Jump To Next Occurrence Of Character X"
-			"code": "fx "
-		},
-		"Jump To Before Next Occurrence Of Character X",
-			"description: "Jump To Before Next Occurrence Of Character X"
-			"code": "tx "
-		},
-		"Jump To Next Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Next Paragraph (Or Function/Block, When Editing Code)"
-			"code": "} "
-		},
-		"Jump To Previous Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Previous Paragraph (Or Function/Block, When Editing Code)"
-			"code": "{ "
-		},
-		"Center Cursor On Screen",
-			"description: "Center Cursor On Screen"
-			"code": "zz "
-		},
-		"Move Back One Full Screen",
-			"description: "Move Back One Full Screen"
-			"code": "Ctrl + b "
-		},
-		"Move Forward One Full Screen",
-			"description: "Move Forward One Full Screen"
-			"code": "Ctrl + f "
-		},
-		"Move Forward 1/2 A Screen",
-			"description: "Move Forward 1/2 A Screen"
-			"code": "Ctrl + d "
-		},
-		"Move Back 1/2 A Screen",
-			"description: "Move Back 1/2 A Screen"
-			"code": "Ctrl + u "
-		},
-		"Insert Before The Cursor",
-			"description: "Insert Before The Cursor"
-			"code": "i "
-		},
-		"Insert At The Beginning Of The Line",
-			"description: "Insert At The Beginning Of The Line"
-			"code": "I "
-		},
-		"Insert (Append) After The Cursor",
-			"description: "Insert (Append) After The Cursor"
-			"code": "a "
-		},
-		"Insert (Append) At The End Of The Line",
-			"description: "Insert (Append) At The End Of The Line"
-			"code": "A "
-		},
-		"Append (Open) A New Line Below The Current Line",
-			"description: "Append (Open) A New Line Below The Current Line"
-			"code": "o "
-		},
-		"Append (Open) A New Line Above The Current Line",
-			"description: "Append (Open) A New Line Above The Current Line"
-			"code": "O "
-		},
-		"Insert (Append) At The End Of The Word",
-			"description: "Insert (Append) At The End Of The Word"
-			"code": "ea "
-		},
-		"Exit Insert Mode",
-			"description: "Exit Insert Mode"
-			"code": "Esc "
-		},
-		"Replace A Single Character",
-			"description: "Replace A Single Character"
-			"code": "r "
-		},
-		"Join Line Below To The Current One",
-			"description: "Join Line Below To The Current One"
-			"code": "J "
-		},
-		"Change (Replace) Entire Line",
-			"description: "Change (Replace) Entire Line"
-			"code": "cc "
-		},
-		"Change (Replace) To The End Of The Word",
-			"description: "Change (Replace) To The End Of The Word"
-			"code": "cw "
-		},
-		"Change (Replace) To The End Of The Line",
-			"description: "Change (Replace) To The End Of The Line"
-			"code": "c$ "
-		},
-		"Delete Character And Substitute Text",
-			"description: "Delete Character And Substitute Text"
-			"code": "s "
-		},
-		"Delete Line And Substitute Text (Same As Cc)",
-			"description: "Delete Line And Substitute Text (Same As Cc)"
-			"code": "S "
-		},
-		"Transpose Two Letters (Delete And Paste)",
-			"description: "Transpose Two Letters (Delete And Paste)"
-			"code": "xp "
-		},
-		"Undo",
-			"description: "Undo"
-			"code": "u "
-		},
-		"Redo",
-			"description: "Redo"
-			"code": "Ctrl + r "
-		},
-		"Repeat Last Command",
-			"description: "Repeat Last Command"
-			"code": ". "
-		},
-		"Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)",
-			"description: "Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)"
-			"code": "v "
-		},
-		"Start Linewise Visual Mode",
-			"description: "Start Linewise Visual Mode"
-			"code": "V "
-		},
-		"Move To Other End Of Marked Area",
-			"description: "Move To Other End Of Marked Area"
-			"code": "o "
-		},
-		"Start Visual Block Mode",
-			"description: "Start Visual Block Mode"
-			"code": "Ctrl + v "
-		},
-		"Move To Other Corner Of Block",
-			"description: "Move To Other Corner Of Block"
-			"code": "O "
-		},
-		"Mark A Word",
-			"description: "Mark A Word"
-			"code": "aw "
-		},
-		"A Block With ()",
-			"description: "A Block With ()"
-			"code": "ab "
-		},
-		"A Block With {}",
-			"description: "A Block With {}"
-			"code": "aB "
-		},
-		"Inner Block With ()",
-			"description: "Inner Block With ()"
-			"code": "ib "
-		},
-		"Inner Block With {}",
-			"description: "Inner Block With {}"
-			"code": "iB "
-		},
-		"Exit Visual Mode",
-			"description: "Exit Visual Mode"
-			"code": "Esc "
-		},
-		"Shift Text Right",
-			"description: "Shift Text Right"
-			"code": "&gt; "
-		},
-		"Shift Text Left",
-			"description: "Shift Text Left"
-			"code": "&lt; "
-		},
-		"Yank (Copy) Marked Text",
-			"description: "Yank (Copy) Marked Text"
-			"code": "y "
-		},
-		"Delete Marked Text",
-			"description: "Delete Marked Text"
-			"code": "d "
-		},
-		"Switch Case",
-			"description: "Switch Case"
-			"code": "~ "
-		},
-		"Show Registers Content",
-			"description: "Show Registers Content"
-			"code": ":reg "
-		},
-		"Yank Into Register X",
-			"description: "Yank Into Register X"
-			"code": ""xy "
-		},
-		"Paste Contents Of Register X",
-			"description: "Paste Contents Of Register X"
-			"code": ""xp "
-		},
-		"List Of Marks",
-			"description: "List Of Marks"
-			"code": ":marks "
-		},
-		"Set Current Position For Mark A",
-			"description: "Set Current Position For Mark A"
-			"code": "ma "
-		},
-		"Jump To Position Of Mark A",
-			"description: "Jump To Position Of Mark A"
-			"code": "`a "
-		},
-		"Yank Text To Position Of Mark A",
-			"description: "Yank Text To Position Of Mark A"
-			"code": "y`a "
+			"description": "Close Current Pane"
+			"code": ":close"
 		}
 
 		},
-		"Macros": {
+	"Macros": {
 		"Open Help For Keyword",
-			"description: "Open Help For Keyword"
-			"code": ":help keyword "
+			"description": "Open Help For Keyword"
+			"code": ":help keyword"
 		},
 		"Open File",
-			"description: "Open File"
-			"code": ":o file "
+			"description": "Open File"
+			"code": ":o file"
 		},
 		"Save File As",
-			"description: "Save File As"
-			"code": ":saveas file "
+			"description": "Save File As"
+			"code": ":saveas file"
 		},
 		"Close Current Pane",
-			"description: "Close Current Pane"
-			"code": ":close "
-		},
-		"Open Man Page For Word Under The Cursor",
-			"description: "Open Man Page For Word Under The Cursor"
-			"code": "K "
-		},
-		"Move Cursor Left",
-			"description: "Move Cursor Left"
-			"code": "h "
-		},
-		"Move Cursor Down",
-			"description: "Move Cursor Down"
-			"code": "j "
-		},
-		"Move Cursor Up",
-			"description: "Move Cursor Up"
-			"code": "k "
-		},
-		"Move Cursor Right",
-			"description: "Move Cursor Right"
-			"code": "l "
-		},
-		"Move To Top Of Screen",
-			"description: "Move To Top Of Screen"
-			"code": "H "
-		},
-		"Move To Middle Of Screen",
-			"description: "Move To Middle Of Screen"
-			"code": "M "
-		},
-		"Move To Bottom Of Screen",
-			"description: "Move To Bottom Of Screen"
-			"code": "L "
-		},
-		"Jump Forwards To The Start Of A Word",
-			"description: "Jump Forwards To The Start Of A Word"
-			"code": "w "
-		},
-		"Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "W "
-		},
-		"Jump Forwards To The End Of A Word",
-			"description: "Jump Forwards To The End Of A Word"
-			"code": "e "
-		},
-		"Jump Forwards To The End Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The End Of A Word (Words Can Contain Punctuation)"
-			"code": "E "
-		},
-		"Jump Backwards To The Start Of A Word",
-			"description: "Jump Backwards To The Start Of A Word"
-			"code": "b "
-		},
-		"Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "B "
-		},
-		"Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)",
-			"description: "Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)"
-			"code": "% "
-		},
-		"Jump To The Start Of The Line",
-			"description: "Jump To The Start Of The Line"
-			"code": "0 "
-		},
-		"Jump To The First Non-Blank Character Of The Line",
-			"description: "Jump To The First Non-Blank Character Of The Line"
-			"code": "^ "
-		},
-		"Jump To The End Of The Line",
-			"description: "Jump To The End Of The Line"
-			"code": "$ "
-		},
-		"Jump To The Last Non-Blank Character Of The Line",
-			"description: "Jump To The Last Non-Blank Character Of The Line"
-			"code": "g_ "
-		},
-		"Go To The First Line Of The Document",
-			"description: "Go To The First Line Of The Document"
-			"code": "gg "
-		},
-		"Go To The Last Line Of The Document",
-			"description: "Go To The Last Line Of The Document"
-			"code": "G "
-		},
-		"Go To Line 5",
-			"description: "Go To Line 5"
-			"code": "5G "
-		},
-		"Jump To Next Occurrence Of Character X",
-			"description: "Jump To Next Occurrence Of Character X"
-			"code": "fx "
-		},
-		"Jump To Before Next Occurrence Of Character X",
-			"description: "Jump To Before Next Occurrence Of Character X"
-			"code": "tx "
-		},
-		"Jump To Next Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Next Paragraph (Or Function/Block, When Editing Code)"
-			"code": "} "
-		},
-		"Jump To Previous Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Previous Paragraph (Or Function/Block, When Editing Code)"
-			"code": "{ "
-		},
-		"Center Cursor On Screen",
-			"description: "Center Cursor On Screen"
-			"code": "zz "
-		},
-		"Move Back One Full Screen",
-			"description: "Move Back One Full Screen"
-			"code": "Ctrl + b "
-		},
-		"Move Forward One Full Screen",
-			"description: "Move Forward One Full Screen"
-			"code": "Ctrl + f "
-		},
-		"Move Forward 1/2 A Screen",
-			"description: "Move Forward 1/2 A Screen"
-			"code": "Ctrl + d "
-		},
-		"Move Back 1/2 A Screen",
-			"description: "Move Back 1/2 A Screen"
-			"code": "Ctrl + u "
-		},
-		"Insert Before The Cursor",
-			"description: "Insert Before The Cursor"
-			"code": "i "
-		},
-		"Insert At The Beginning Of The Line",
-			"description: "Insert At The Beginning Of The Line"
-			"code": "I "
-		},
-		"Insert (Append) After The Cursor",
-			"description: "Insert (Append) After The Cursor"
-			"code": "a "
-		},
-		"Insert (Append) At The End Of The Line",
-			"description: "Insert (Append) At The End Of The Line"
-			"code": "A "
-		},
-		"Append (Open) A New Line Below The Current Line",
-			"description: "Append (Open) A New Line Below The Current Line"
-			"code": "o "
-		},
-		"Append (Open) A New Line Above The Current Line",
-			"description: "Append (Open) A New Line Above The Current Line"
-			"code": "O "
-		},
-		"Insert (Append) At The End Of The Word",
-			"description: "Insert (Append) At The End Of The Word"
-			"code": "ea "
-		},
-		"Exit Insert Mode",
-			"description: "Exit Insert Mode"
-			"code": "Esc "
-		},
-		"Replace A Single Character",
-			"description: "Replace A Single Character"
-			"code": "r "
-		},
-		"Join Line Below To The Current One",
-			"description: "Join Line Below To The Current One"
-			"code": "J "
-		},
-		"Change (Replace) Entire Line",
-			"description: "Change (Replace) Entire Line"
-			"code": "cc "
-		},
-		"Change (Replace) To The End Of The Word",
-			"description: "Change (Replace) To The End Of The Word"
-			"code": "cw "
-		},
-		"Change (Replace) To The End Of The Line",
-			"description: "Change (Replace) To The End Of The Line"
-			"code": "c$ "
-		},
-		"Delete Character And Substitute Text",
-			"description: "Delete Character And Substitute Text"
-			"code": "s "
-		},
-		"Delete Line And Substitute Text (Same As Cc)",
-			"description: "Delete Line And Substitute Text (Same As Cc)"
-			"code": "S "
-		},
-		"Transpose Two Letters (Delete And Paste)",
-			"description: "Transpose Two Letters (Delete And Paste)"
-			"code": "xp "
-		},
-		"Undo",
-			"description: "Undo"
-			"code": "u "
-		},
-		"Redo",
-			"description: "Redo"
-			"code": "Ctrl + r "
-		},
-		"Repeat Last Command",
-			"description: "Repeat Last Command"
-			"code": ". "
-		},
-		"Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)",
-			"description: "Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)"
-			"code": "v "
-		},
-		"Start Linewise Visual Mode",
-			"description: "Start Linewise Visual Mode"
-			"code": "V "
-		},
-		"Move To Other End Of Marked Area",
-			"description: "Move To Other End Of Marked Area"
-			"code": "o "
-		},
-		"Start Visual Block Mode",
-			"description: "Start Visual Block Mode"
-			"code": "Ctrl + v "
-		},
-		"Move To Other Corner Of Block",
-			"description: "Move To Other Corner Of Block"
-			"code": "O "
-		},
-		"Mark A Word",
-			"description: "Mark A Word"
-			"code": "aw "
-		},
-		"A Block With ()",
-			"description: "A Block With ()"
-			"code": "ab "
-		},
-		"A Block With {}",
-			"description: "A Block With {}"
-			"code": "aB "
-		},
-		"Inner Block With ()",
-			"description: "Inner Block With ()"
-			"code": "ib "
-		},
-		"Inner Block With {}",
-			"description: "Inner Block With {}"
-			"code": "iB "
-		},
-		"Exit Visual Mode",
-			"description: "Exit Visual Mode"
-			"code": "Esc "
-		},
-		"Shift Text Right",
-			"description: "Shift Text Right"
-			"code": "&gt; "
-		},
-		"Shift Text Left",
-			"description: "Shift Text Left"
-			"code": "&lt; "
-		},
-		"Yank (Copy) Marked Text",
-			"description: "Yank (Copy) Marked Text"
-			"code": "y "
-		},
-		"Delete Marked Text",
-			"description: "Delete Marked Text"
-			"code": "d "
-		},
-		"Switch Case",
-			"description: "Switch Case"
-			"code": "~ "
-		},
-		"Show Registers Content",
-			"description: "Show Registers Content"
-			"code": ":reg "
-		},
-		"Yank Into Register X",
-			"description: "Yank Into Register X"
-			"code": ""xy "
-		},
-		"Paste Contents Of Register X",
-			"description: "Paste Contents Of Register X"
-			"code": ""xp "
-		},
-		"List Of Marks",
-			"description: "List Of Marks"
-			"code": ":marks "
-		},
-		"Set Current Position For Mark A",
-			"description: "Set Current Position For Mark A"
-			"code": "ma "
-		},
-		"Jump To Position Of Mark A",
-			"description: "Jump To Position Of Mark A"
-			"code": "`a "
-		},
-		"Yank Text To Position Of Mark A",
-			"description: "Yank Text To Position Of Mark A"
-			"code": "y`a "
-		},
-		"Record Macro A",
-			"description: "Record Macro A"
-			"code": "qa "
-		},
-		"Stop Recording Macro",
-			"description: "Stop Recording Macro"
-			"code": "q "
-		},
-		"Run Macro A",
-			"description: "Run Macro A"
-			"code": "@a "
-		},
-		"Rerun Last Run Macro",
-			"description: "Rerun Last Run Macro"
-			"code": "@@ "
+			"description": "Close Current Pane"
+			"code": ":close"
 		}
 
 		},
-		"Cut And Paste": {
+	"Cut And Paste": {
 		"Open Help For Keyword",
-			"description: "Open Help For Keyword"
-			"code": ":help keyword "
+			"description": "Open Help For Keyword"
+			"code": ":help keyword"
 		},
 		"Open File",
-			"description: "Open File"
-			"code": ":o file "
+			"description": "Open File"
+			"code": ":o file"
 		},
 		"Save File As",
-			"description: "Save File As"
-			"code": ":saveas file "
+			"description": "Save File As"
+			"code": ":saveas file"
 		},
 		"Close Current Pane",
-			"description: "Close Current Pane"
-			"code": ":close "
+			"description": "Close Current Pane"
+			"code": ":close"
 		},
 		"Open Man Page For Word Under The Cursor",
-			"description: "Open Man Page For Word Under The Cursor"
-			"code": "K "
+			"description": "Open Man Page For Word Under The Cursor"
+			"code": "K"
 		},
 		"Move Cursor Left",
-			"description: "Move Cursor Left"
-			"code": "h "
+			"description": "Move Cursor Left"
+			"code": "h"
 		},
 		"Move Cursor Down",
-			"description: "Move Cursor Down"
-			"code": "j "
+			"description": "Move Cursor Down"
+			"code": "j"
 		},
 		"Move Cursor Up",
-			"description: "Move Cursor Up"
-			"code": "k "
+			"description": "Move Cursor Up"
+			"code": "k"
 		},
 		"Move Cursor Right",
-			"description: "Move Cursor Right"
-			"code": "l "
+			"description": "Move Cursor Right"
+			"code": "l"
 		},
 		"Move To Top Of Screen",
-			"description: "Move To Top Of Screen"
-			"code": "H "
+			"description": "Move To Top Of Screen"
+			"code": "H"
 		},
 		"Move To Middle Of Screen",
-			"description: "Move To Middle Of Screen"
-			"code": "M "
+			"description": "Move To Middle Of Screen"
+			"code": "M"
 		},
 		"Move To Bottom Of Screen",
-			"description: "Move To Bottom Of Screen"
-			"code": "L "
-		},
-		"Jump Forwards To The Start Of A Word",
-			"description: "Jump Forwards To The Start Of A Word"
-			"code": "w "
-		},
-		"Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "W "
-		},
-		"Jump Forwards To The End Of A Word",
-			"description: "Jump Forwards To The End Of A Word"
-			"code": "e "
-		},
-		"Jump Forwards To The End Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The End Of A Word (Words Can Contain Punctuation)"
-			"code": "E "
-		},
-		"Jump Backwards To The Start Of A Word",
-			"description: "Jump Backwards To The Start Of A Word"
-			"code": "b "
-		},
-		"Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "B "
-		},
-		"Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)",
-			"description: "Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)"
-			"code": "% "
-		},
-		"Jump To The Start Of The Line",
-			"description: "Jump To The Start Of The Line"
-			"code": "0 "
-		},
-		"Jump To The First Non-Blank Character Of The Line",
-			"description: "Jump To The First Non-Blank Character Of The Line"
-			"code": "^ "
-		},
-		"Jump To The End Of The Line",
-			"description: "Jump To The End Of The Line"
-			"code": "$ "
-		},
-		"Jump To The Last Non-Blank Character Of The Line",
-			"description: "Jump To The Last Non-Blank Character Of The Line"
-			"code": "g_ "
-		},
-		"Go To The First Line Of The Document",
-			"description: "Go To The First Line Of The Document"
-			"code": "gg "
-		},
-		"Go To The Last Line Of The Document",
-			"description: "Go To The Last Line Of The Document"
-			"code": "G "
-		},
-		"Go To Line 5",
-			"description: "Go To Line 5"
-			"code": "5G "
-		},
-		"Jump To Next Occurrence Of Character X",
-			"description: "Jump To Next Occurrence Of Character X"
-			"code": "fx "
-		},
-		"Jump To Before Next Occurrence Of Character X",
-			"description: "Jump To Before Next Occurrence Of Character X"
-			"code": "tx "
-		},
-		"Jump To Next Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Next Paragraph (Or Function/Block, When Editing Code)"
-			"code": "} "
-		},
-		"Jump To Previous Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Previous Paragraph (Or Function/Block, When Editing Code)"
-			"code": "{ "
-		},
-		"Center Cursor On Screen",
-			"description: "Center Cursor On Screen"
-			"code": "zz "
-		},
-		"Move Back One Full Screen",
-			"description: "Move Back One Full Screen"
-			"code": "Ctrl + b "
-		},
-		"Move Forward One Full Screen",
-			"description: "Move Forward One Full Screen"
-			"code": "Ctrl + f "
-		},
-		"Move Forward 1/2 A Screen",
-			"description: "Move Forward 1/2 A Screen"
-			"code": "Ctrl + d "
-		},
-		"Move Back 1/2 A Screen",
-			"description: "Move Back 1/2 A Screen"
-			"code": "Ctrl + u "
-		},
-		"Insert Before The Cursor",
-			"description: "Insert Before The Cursor"
-			"code": "i "
-		},
-		"Insert At The Beginning Of The Line",
-			"description: "Insert At The Beginning Of The Line"
-			"code": "I "
-		},
-		"Insert (Append) After The Cursor",
-			"description: "Insert (Append) After The Cursor"
-			"code": "a "
-		},
-		"Insert (Append) At The End Of The Line",
-			"description: "Insert (Append) At The End Of The Line"
-			"code": "A "
-		},
-		"Append (Open) A New Line Below The Current Line",
-			"description: "Append (Open) A New Line Below The Current Line"
-			"code": "o "
-		},
-		"Append (Open) A New Line Above The Current Line",
-			"description: "Append (Open) A New Line Above The Current Line"
-			"code": "O "
-		},
-		"Insert (Append) At The End Of The Word",
-			"description: "Insert (Append) At The End Of The Word"
-			"code": "ea "
-		},
-		"Exit Insert Mode",
-			"description: "Exit Insert Mode"
-			"code": "Esc "
-		},
-		"Replace A Single Character",
-			"description: "Replace A Single Character"
-			"code": "r "
-		},
-		"Join Line Below To The Current One",
-			"description: "Join Line Below To The Current One"
-			"code": "J "
-		},
-		"Change (Replace) Entire Line",
-			"description: "Change (Replace) Entire Line"
-			"code": "cc "
-		},
-		"Change (Replace) To The End Of The Word",
-			"description: "Change (Replace) To The End Of The Word"
-			"code": "cw "
-		},
-		"Change (Replace) To The End Of The Line",
-			"description: "Change (Replace) To The End Of The Line"
-			"code": "c$ "
-		},
-		"Delete Character And Substitute Text",
-			"description: "Delete Character And Substitute Text"
-			"code": "s "
-		},
-		"Delete Line And Substitute Text (Same As Cc)",
-			"description: "Delete Line And Substitute Text (Same As Cc)"
-			"code": "S "
-		},
-		"Transpose Two Letters (Delete And Paste)",
-			"description: "Transpose Two Letters (Delete And Paste)"
-			"code": "xp "
-		},
-		"Undo",
-			"description: "Undo"
-			"code": "u "
-		},
-		"Redo",
-			"description: "Redo"
-			"code": "Ctrl + r "
-		},
-		"Repeat Last Command",
-			"description: "Repeat Last Command"
-			"code": ". "
-		},
-		"Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)",
-			"description: "Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)"
-			"code": "v "
-		},
-		"Start Linewise Visual Mode",
-			"description: "Start Linewise Visual Mode"
-			"code": "V "
-		},
-		"Move To Other End Of Marked Area",
-			"description: "Move To Other End Of Marked Area"
-			"code": "o "
-		},
-		"Start Visual Block Mode",
-			"description: "Start Visual Block Mode"
-			"code": "Ctrl + v "
-		},
-		"Move To Other Corner Of Block",
-			"description: "Move To Other Corner Of Block"
-			"code": "O "
-		},
-		"Mark A Word",
-			"description: "Mark A Word"
-			"code": "aw "
-		},
-		"A Block With ()",
-			"description: "A Block With ()"
-			"code": "ab "
-		},
-		"A Block With {}",
-			"description: "A Block With {}"
-			"code": "aB "
-		},
-		"Inner Block With ()",
-			"description: "Inner Block With ()"
-			"code": "ib "
-		},
-		"Inner Block With {}",
-			"description: "Inner Block With {}"
-			"code": "iB "
-		},
-		"Exit Visual Mode",
-			"description: "Exit Visual Mode"
-			"code": "Esc "
-		},
-		"Shift Text Right",
-			"description: "Shift Text Right"
-			"code": "&gt; "
-		},
-		"Shift Text Left",
-			"description: "Shift Text Left"
-			"code": "&lt; "
-		},
-		"Yank (Copy) Marked Text",
-			"description: "Yank (Copy) Marked Text"
-			"code": "y "
-		},
-		"Delete Marked Text",
-			"description: "Delete Marked Text"
-			"code": "d "
-		},
-		"Switch Case",
-			"description: "Switch Case"
-			"code": "~ "
-		},
-		"Show Registers Content",
-			"description: "Show Registers Content"
-			"code": ":reg "
-		},
-		"Yank Into Register X",
-			"description: "Yank Into Register X"
-			"code": ""xy "
-		},
-		"Paste Contents Of Register X",
-			"description: "Paste Contents Of Register X"
-			"code": ""xp "
-		},
-		"List Of Marks",
-			"description: "List Of Marks"
-			"code": ":marks "
-		},
-		"Set Current Position For Mark A",
-			"description: "Set Current Position For Mark A"
-			"code": "ma "
-		},
-		"Jump To Position Of Mark A",
-			"description: "Jump To Position Of Mark A"
-			"code": "`a "
-		},
-		"Yank Text To Position Of Mark A",
-			"description: "Yank Text To Position Of Mark A"
-			"code": "y`a "
-		},
-		"Record Macro A",
-			"description: "Record Macro A"
-			"code": "qa "
-		},
-		"Stop Recording Macro",
-			"description: "Stop Recording Macro"
-			"code": "q "
-		},
-		"Run Macro A",
-			"description: "Run Macro A"
-			"code": "@a "
-		},
-		"Rerun Last Run Macro",
-			"description: "Rerun Last Run Macro"
-			"code": "@@ "
-		},
-		"Yank (Copy) A Line",
-			"description: "Yank (Copy) A Line"
-			"code": "yy "
-		},
-		"Yank (Copy) 2 Lines",
-			"description: "Yank (Copy) 2 Lines"
-			"code": "2yy "
-		},
-		"Yank (Copy) The Characters Of The Word From The Cursor Position To The Start Of The Next Word",
-			"description: "Yank (Copy) The Characters Of The Word From The Cursor Position To The Start Of The Next Word"
-			"code": "yw "
-		},
-		"Yank (Copy) To End Of Line",
-			"description: "Yank (Copy) To End Of Line"
-			"code": "y$ "
-		},
-		"Put (Paste) The Clipboard After Cursor",
-			"description: "Put (Paste) The Clipboard After Cursor"
-			"code": "p "
-		},
-		"Put (Paste) Before Cursor",
-			"description: "Put (Paste) Before Cursor"
-			"code": "P "
-		},
-		"Delete (Cut) A Line",
-			"description: "Delete (Cut) A Line"
-			"code": "dd "
-		},
-		"Delete (Cut) 2 Lines",
-			"description: "Delete (Cut) 2 Lines"
-			"code": "2dd "
-		},
-		"Delete (Cut) The Characters Of The Word From The Cursor Position To The Start Of The Next Word",
-			"description: "Delete (Cut) The Characters Of The Word From The Cursor Position To The Start Of The Next Word"
-			"code": "dw "
-		},
-		"Delete (Cut) To The End Of The Line",
-			"description: "Delete (Cut) To The End Of The Line"
-			"code": "D "
-		},
-		"Delete (Cut) To The End Of The Line",
-			"description: "Delete (Cut) To The End Of The Line"
-			"code": "d$ "
-		},
-		"Delete (Cut) Character",
-			"description: "Delete (Cut) Character"
-			"code": "x "
+			"description": "Move To Bottom Of Screen"
+			"code": "L"
 		}
 
 		},
-		"Exiting": {
+	"Exiting": {
 		"Open Help For Keyword",
-			"description: "Open Help For Keyword"
-			"code": ":help keyword "
+			"description": "Open Help For Keyword"
+			"code": ":help keyword"
 		},
 		"Open File",
-			"description: "Open File"
-			"code": ":o file "
+			"description": "Open File"
+			"code": ":o file"
 		},
 		"Save File As",
-			"description: "Save File As"
-			"code": ":saveas file "
+			"description": "Save File As"
+			"code": ":saveas file"
 		},
 		"Close Current Pane",
-			"description: "Close Current Pane"
-			"code": ":close "
+			"description": "Close Current Pane"
+			"code": ":close"
 		},
 		"Open Man Page For Word Under The Cursor",
-			"description: "Open Man Page For Word Under The Cursor"
-			"code": "K "
-		},
-		"Move Cursor Left",
-			"description: "Move Cursor Left"
-			"code": "h "
-		},
-		"Move Cursor Down",
-			"description: "Move Cursor Down"
-			"code": "j "
-		},
-		"Move Cursor Up",
-			"description: "Move Cursor Up"
-			"code": "k "
-		},
-		"Move Cursor Right",
-			"description: "Move Cursor Right"
-			"code": "l "
-		},
-		"Move To Top Of Screen",
-			"description: "Move To Top Of Screen"
-			"code": "H "
-		},
-		"Move To Middle Of Screen",
-			"description: "Move To Middle Of Screen"
-			"code": "M "
-		},
-		"Move To Bottom Of Screen",
-			"description: "Move To Bottom Of Screen"
-			"code": "L "
-		},
-		"Jump Forwards To The Start Of A Word",
-			"description: "Jump Forwards To The Start Of A Word"
-			"code": "w "
-		},
-		"Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "W "
-		},
-		"Jump Forwards To The End Of A Word",
-			"description: "Jump Forwards To The End Of A Word"
-			"code": "e "
-		},
-		"Jump Forwards To The End Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The End Of A Word (Words Can Contain Punctuation)"
-			"code": "E "
-		},
-		"Jump Backwards To The Start Of A Word",
-			"description: "Jump Backwards To The Start Of A Word"
-			"code": "b "
-		},
-		"Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "B "
-		},
-		"Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)",
-			"description: "Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)"
-			"code": "% "
-		},
-		"Jump To The Start Of The Line",
-			"description: "Jump To The Start Of The Line"
-			"code": "0 "
-		},
-		"Jump To The First Non-Blank Character Of The Line",
-			"description: "Jump To The First Non-Blank Character Of The Line"
-			"code": "^ "
-		},
-		"Jump To The End Of The Line",
-			"description: "Jump To The End Of The Line"
-			"code": "$ "
-		},
-		"Jump To The Last Non-Blank Character Of The Line",
-			"description: "Jump To The Last Non-Blank Character Of The Line"
-			"code": "g_ "
-		},
-		"Go To The First Line Of The Document",
-			"description: "Go To The First Line Of The Document"
-			"code": "gg "
-		},
-		"Go To The Last Line Of The Document",
-			"description: "Go To The Last Line Of The Document"
-			"code": "G "
-		},
-		"Go To Line 5",
-			"description: "Go To Line 5"
-			"code": "5G "
-		},
-		"Jump To Next Occurrence Of Character X",
-			"description: "Jump To Next Occurrence Of Character X"
-			"code": "fx "
-		},
-		"Jump To Before Next Occurrence Of Character X",
-			"description: "Jump To Before Next Occurrence Of Character X"
-			"code": "tx "
-		},
-		"Jump To Next Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Next Paragraph (Or Function/Block, When Editing Code)"
-			"code": "} "
-		},
-		"Jump To Previous Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Previous Paragraph (Or Function/Block, When Editing Code)"
-			"code": "{ "
-		},
-		"Center Cursor On Screen",
-			"description: "Center Cursor On Screen"
-			"code": "zz "
-		},
-		"Move Back One Full Screen",
-			"description: "Move Back One Full Screen"
-			"code": "Ctrl + b "
-		},
-		"Move Forward One Full Screen",
-			"description: "Move Forward One Full Screen"
-			"code": "Ctrl + f "
-		},
-		"Move Forward 1/2 A Screen",
-			"description: "Move Forward 1/2 A Screen"
-			"code": "Ctrl + d "
-		},
-		"Move Back 1/2 A Screen",
-			"description: "Move Back 1/2 A Screen"
-			"code": "Ctrl + u "
-		},
-		"Insert Before The Cursor",
-			"description: "Insert Before The Cursor"
-			"code": "i "
-		},
-		"Insert At The Beginning Of The Line",
-			"description: "Insert At The Beginning Of The Line"
-			"code": "I "
-		},
-		"Insert (Append) After The Cursor",
-			"description: "Insert (Append) After The Cursor"
-			"code": "a "
-		},
-		"Insert (Append) At The End Of The Line",
-			"description: "Insert (Append) At The End Of The Line"
-			"code": "A "
-		},
-		"Append (Open) A New Line Below The Current Line",
-			"description: "Append (Open) A New Line Below The Current Line"
-			"code": "o "
-		},
-		"Append (Open) A New Line Above The Current Line",
-			"description: "Append (Open) A New Line Above The Current Line"
-			"code": "O "
-		},
-		"Insert (Append) At The End Of The Word",
-			"description: "Insert (Append) At The End Of The Word"
-			"code": "ea "
-		},
-		"Exit Insert Mode",
-			"description: "Exit Insert Mode"
-			"code": "Esc "
-		},
-		"Replace A Single Character",
-			"description: "Replace A Single Character"
-			"code": "r "
-		},
-		"Join Line Below To The Current One",
-			"description: "Join Line Below To The Current One"
-			"code": "J "
-		},
-		"Change (Replace) Entire Line",
-			"description: "Change (Replace) Entire Line"
-			"code": "cc "
-		},
-		"Change (Replace) To The End Of The Word",
-			"description: "Change (Replace) To The End Of The Word"
-			"code": "cw "
-		},
-		"Change (Replace) To The End Of The Line",
-			"description: "Change (Replace) To The End Of The Line"
-			"code": "c$ "
-		},
-		"Delete Character And Substitute Text",
-			"description: "Delete Character And Substitute Text"
-			"code": "s "
-		},
-		"Delete Line And Substitute Text (Same As Cc)",
-			"description: "Delete Line And Substitute Text (Same As Cc)"
-			"code": "S "
-		},
-		"Transpose Two Letters (Delete And Paste)",
-			"description: "Transpose Two Letters (Delete And Paste)"
-			"code": "xp "
-		},
-		"Undo",
-			"description: "Undo"
-			"code": "u "
-		},
-		"Redo",
-			"description: "Redo"
-			"code": "Ctrl + r "
-		},
-		"Repeat Last Command",
-			"description: "Repeat Last Command"
-			"code": ". "
-		},
-		"Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)",
-			"description: "Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)"
-			"code": "v "
-		},
-		"Start Linewise Visual Mode",
-			"description: "Start Linewise Visual Mode"
-			"code": "V "
-		},
-		"Move To Other End Of Marked Area",
-			"description: "Move To Other End Of Marked Area"
-			"code": "o "
-		},
-		"Start Visual Block Mode",
-			"description: "Start Visual Block Mode"
-			"code": "Ctrl + v "
-		},
-		"Move To Other Corner Of Block",
-			"description: "Move To Other Corner Of Block"
-			"code": "O "
-		},
-		"Mark A Word",
-			"description: "Mark A Word"
-			"code": "aw "
-		},
-		"A Block With ()",
-			"description: "A Block With ()"
-			"code": "ab "
-		},
-		"A Block With {}",
-			"description: "A Block With {}"
-			"code": "aB "
-		},
-		"Inner Block With ()",
-			"description: "Inner Block With ()"
-			"code": "ib "
-		},
-		"Inner Block With {}",
-			"description: "Inner Block With {}"
-			"code": "iB "
-		},
-		"Exit Visual Mode",
-			"description: "Exit Visual Mode"
-			"code": "Esc "
-		},
-		"Shift Text Right",
-			"description: "Shift Text Right"
-			"code": "&gt; "
-		},
-		"Shift Text Left",
-			"description: "Shift Text Left"
-			"code": "&lt; "
-		},
-		"Yank (Copy) Marked Text",
-			"description: "Yank (Copy) Marked Text"
-			"code": "y "
-		},
-		"Delete Marked Text",
-			"description: "Delete Marked Text"
-			"code": "d "
-		},
-		"Switch Case",
-			"description: "Switch Case"
-			"code": "~ "
-		},
-		"Show Registers Content",
-			"description: "Show Registers Content"
-			"code": ":reg "
-		},
-		"Yank Into Register X",
-			"description: "Yank Into Register X"
-			"code": ""xy "
-		},
-		"Paste Contents Of Register X",
-			"description: "Paste Contents Of Register X"
-			"code": ""xp "
-		},
-		"List Of Marks",
-			"description: "List Of Marks"
-			"code": ":marks "
-		},
-		"Set Current Position For Mark A",
-			"description: "Set Current Position For Mark A"
-			"code": "ma "
-		},
-		"Jump To Position Of Mark A",
-			"description: "Jump To Position Of Mark A"
-			"code": "`a "
-		},
-		"Yank Text To Position Of Mark A",
-			"description: "Yank Text To Position Of Mark A"
-			"code": "y`a "
-		},
-		"Record Macro A",
-			"description: "Record Macro A"
-			"code": "qa "
-		},
-		"Stop Recording Macro",
-			"description: "Stop Recording Macro"
-			"code": "q "
-		},
-		"Run Macro A",
-			"description: "Run Macro A"
-			"code": "@a "
-		},
-		"Rerun Last Run Macro",
-			"description: "Rerun Last Run Macro"
-			"code": "@@ "
-		},
-		"Yank (Copy) A Line",
-			"description: "Yank (Copy) A Line"
-			"code": "yy "
-		},
-		"Yank (Copy) 2 Lines",
-			"description: "Yank (Copy) 2 Lines"
-			"code": "2yy "
-		},
-		"Yank (Copy) The Characters Of The Word From The Cursor Position To The Start Of The Next Word",
-			"description: "Yank (Copy) The Characters Of The Word From The Cursor Position To The Start Of The Next Word"
-			"code": "yw "
-		},
-		"Yank (Copy) To End Of Line",
-			"description: "Yank (Copy) To End Of Line"
-			"code": "y$ "
-		},
-		"Put (Paste) The Clipboard After Cursor",
-			"description: "Put (Paste) The Clipboard After Cursor"
-			"code": "p "
-		},
-		"Put (Paste) Before Cursor",
-			"description: "Put (Paste) Before Cursor"
-			"code": "P "
-		},
-		"Delete (Cut) A Line",
-			"description: "Delete (Cut) A Line"
-			"code": "dd "
-		},
-		"Delete (Cut) 2 Lines",
-			"description: "Delete (Cut) 2 Lines"
-			"code": "2dd "
-		},
-		"Delete (Cut) The Characters Of The Word From The Cursor Position To The Start Of The Next Word",
-			"description: "Delete (Cut) The Characters Of The Word From The Cursor Position To The Start Of The Next Word"
-			"code": "dw "
-		},
-		"Delete (Cut) To The End Of The Line",
-			"description: "Delete (Cut) To The End Of The Line"
-			"code": "D "
-		},
-		"Delete (Cut) To The End Of The Line",
-			"description: "Delete (Cut) To The End Of The Line"
-			"code": "d$ "
-		},
-		"Delete (Cut) Character",
-			"description: "Delete (Cut) Character"
-			"code": "x "
-		},
-		"Write (Save) The File, But Don'T Exit",
-			"description: "Write (Save) The File, But Don'T Exit"
-			"code": ":w "
-		},
-		"Write Out The Current File Using Sudo",
-			"description: "Write Out The Current File Using Sudo"
-			"code": ":w !sudo tee % "
-		},
-		"Write (Save) And Quit",
-			"description: "Write (Save) And Quit"
-			"code": ":wq or :x or ZZ "
-		},
-		"Quit (Fails If There Are Unsaved Changes)",
-			"description: "Quit (Fails If There Are Unsaved Changes)"
-			"code": ":q "
-		},
-		"Quit And Throw Away Unsaved Changes",
-			"description: "Quit And Throw Away Unsaved Changes"
-			"code": ":q! or ZQ "
+			"description": "Open Man Page For Word Under The Cursor"
+			"code": "K"
 		}
 
 		},
-		"Search And Replace": {
+	"Search And Replace": {
 		"Open Help For Keyword",
-			"description: "Open Help For Keyword"
-			"code": ":help keyword "
+			"description": "Open Help For Keyword"
+			"code": ":help keyword"
 		},
 		"Open File",
-			"description: "Open File"
-			"code": ":o file "
+			"description": "Open File"
+			"code": ":o file"
 		},
 		"Save File As",
-			"description: "Save File As"
-			"code": ":saveas file "
+			"description": "Save File As"
+			"code": ":saveas file"
 		},
 		"Close Current Pane",
-			"description: "Close Current Pane"
-			"code": ":close "
+			"description": "Close Current Pane"
+			"code": ":close"
 		},
 		"Open Man Page For Word Under The Cursor",
-			"description: "Open Man Page For Word Under The Cursor"
-			"code": "K "
+			"description": "Open Man Page For Word Under The Cursor"
+			"code": "K"
 		},
 		"Move Cursor Left",
-			"description: "Move Cursor Left"
-			"code": "h "
+			"description": "Move Cursor Left"
+			"code": "h"
 		},
 		"Move Cursor Down",
-			"description: "Move Cursor Down"
-			"code": "j "
+			"description": "Move Cursor Down"
+			"code": "j"
 		},
 		"Move Cursor Up",
-			"description: "Move Cursor Up"
-			"code": "k "
-		},
-		"Move Cursor Right",
-			"description: "Move Cursor Right"
-			"code": "l "
-		},
-		"Move To Top Of Screen",
-			"description: "Move To Top Of Screen"
-			"code": "H "
-		},
-		"Move To Middle Of Screen",
-			"description: "Move To Middle Of Screen"
-			"code": "M "
-		},
-		"Move To Bottom Of Screen",
-			"description: "Move To Bottom Of Screen"
-			"code": "L "
-		},
-		"Jump Forwards To The Start Of A Word",
-			"description: "Jump Forwards To The Start Of A Word"
-			"code": "w "
-		},
-		"Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "W "
-		},
-		"Jump Forwards To The End Of A Word",
-			"description: "Jump Forwards To The End Of A Word"
-			"code": "e "
-		},
-		"Jump Forwards To The End Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The End Of A Word (Words Can Contain Punctuation)"
-			"code": "E "
-		},
-		"Jump Backwards To The Start Of A Word",
-			"description: "Jump Backwards To The Start Of A Word"
-			"code": "b "
-		},
-		"Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "B "
-		},
-		"Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)",
-			"description: "Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)"
-			"code": "% "
-		},
-		"Jump To The Start Of The Line",
-			"description: "Jump To The Start Of The Line"
-			"code": "0 "
-		},
-		"Jump To The First Non-Blank Character Of The Line",
-			"description: "Jump To The First Non-Blank Character Of The Line"
-			"code": "^ "
-		},
-		"Jump To The End Of The Line",
-			"description: "Jump To The End Of The Line"
-			"code": "$ "
-		},
-		"Jump To The Last Non-Blank Character Of The Line",
-			"description: "Jump To The Last Non-Blank Character Of The Line"
-			"code": "g_ "
-		},
-		"Go To The First Line Of The Document",
-			"description: "Go To The First Line Of The Document"
-			"code": "gg "
-		},
-		"Go To The Last Line Of The Document",
-			"description: "Go To The Last Line Of The Document"
-			"code": "G "
-		},
-		"Go To Line 5",
-			"description: "Go To Line 5"
-			"code": "5G "
-		},
-		"Jump To Next Occurrence Of Character X",
-			"description: "Jump To Next Occurrence Of Character X"
-			"code": "fx "
-		},
-		"Jump To Before Next Occurrence Of Character X",
-			"description: "Jump To Before Next Occurrence Of Character X"
-			"code": "tx "
-		},
-		"Jump To Next Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Next Paragraph (Or Function/Block, When Editing Code)"
-			"code": "} "
-		},
-		"Jump To Previous Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Previous Paragraph (Or Function/Block, When Editing Code)"
-			"code": "{ "
-		},
-		"Center Cursor On Screen",
-			"description: "Center Cursor On Screen"
-			"code": "zz "
-		},
-		"Move Back One Full Screen",
-			"description: "Move Back One Full Screen"
-			"code": "Ctrl + b "
-		},
-		"Move Forward One Full Screen",
-			"description: "Move Forward One Full Screen"
-			"code": "Ctrl + f "
-		},
-		"Move Forward 1/2 A Screen",
-			"description: "Move Forward 1/2 A Screen"
-			"code": "Ctrl + d "
-		},
-		"Move Back 1/2 A Screen",
-			"description: "Move Back 1/2 A Screen"
-			"code": "Ctrl + u "
-		},
-		"Insert Before The Cursor",
-			"description: "Insert Before The Cursor"
-			"code": "i "
-		},
-		"Insert At The Beginning Of The Line",
-			"description: "Insert At The Beginning Of The Line"
-			"code": "I "
-		},
-		"Insert (Append) After The Cursor",
-			"description: "Insert (Append) After The Cursor"
-			"code": "a "
-		},
-		"Insert (Append) At The End Of The Line",
-			"description: "Insert (Append) At The End Of The Line"
-			"code": "A "
-		},
-		"Append (Open) A New Line Below The Current Line",
-			"description: "Append (Open) A New Line Below The Current Line"
-			"code": "o "
-		},
-		"Append (Open) A New Line Above The Current Line",
-			"description: "Append (Open) A New Line Above The Current Line"
-			"code": "O "
-		},
-		"Insert (Append) At The End Of The Word",
-			"description: "Insert (Append) At The End Of The Word"
-			"code": "ea "
-		},
-		"Exit Insert Mode",
-			"description: "Exit Insert Mode"
-			"code": "Esc "
-		},
-		"Replace A Single Character",
-			"description: "Replace A Single Character"
-			"code": "r "
-		},
-		"Join Line Below To The Current One",
-			"description: "Join Line Below To The Current One"
-			"code": "J "
-		},
-		"Change (Replace) Entire Line",
-			"description: "Change (Replace) Entire Line"
-			"code": "cc "
-		},
-		"Change (Replace) To The End Of The Word",
-			"description: "Change (Replace) To The End Of The Word"
-			"code": "cw "
-		},
-		"Change (Replace) To The End Of The Line",
-			"description: "Change (Replace) To The End Of The Line"
-			"code": "c$ "
-		},
-		"Delete Character And Substitute Text",
-			"description: "Delete Character And Substitute Text"
-			"code": "s "
-		},
-		"Delete Line And Substitute Text (Same As Cc)",
-			"description: "Delete Line And Substitute Text (Same As Cc)"
-			"code": "S "
-		},
-		"Transpose Two Letters (Delete And Paste)",
-			"description: "Transpose Two Letters (Delete And Paste)"
-			"code": "xp "
-		},
-		"Undo",
-			"description: "Undo"
-			"code": "u "
-		},
-		"Redo",
-			"description: "Redo"
-			"code": "Ctrl + r "
-		},
-		"Repeat Last Command",
-			"description: "Repeat Last Command"
-			"code": ". "
-		},
-		"Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)",
-			"description: "Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)"
-			"code": "v "
-		},
-		"Start Linewise Visual Mode",
-			"description: "Start Linewise Visual Mode"
-			"code": "V "
-		},
-		"Move To Other End Of Marked Area",
-			"description: "Move To Other End Of Marked Area"
-			"code": "o "
-		},
-		"Start Visual Block Mode",
-			"description: "Start Visual Block Mode"
-			"code": "Ctrl + v "
-		},
-		"Move To Other Corner Of Block",
-			"description: "Move To Other Corner Of Block"
-			"code": "O "
-		},
-		"Mark A Word",
-			"description: "Mark A Word"
-			"code": "aw "
-		},
-		"A Block With ()",
-			"description: "A Block With ()"
-			"code": "ab "
-		},
-		"A Block With {}",
-			"description: "A Block With {}"
-			"code": "aB "
-		},
-		"Inner Block With ()",
-			"description: "Inner Block With ()"
-			"code": "ib "
-		},
-		"Inner Block With {}",
-			"description: "Inner Block With {}"
-			"code": "iB "
-		},
-		"Exit Visual Mode",
-			"description: "Exit Visual Mode"
-			"code": "Esc "
-		},
-		"Shift Text Right",
-			"description: "Shift Text Right"
-			"code": "&gt; "
-		},
-		"Shift Text Left",
-			"description: "Shift Text Left"
-			"code": "&lt; "
-		},
-		"Yank (Copy) Marked Text",
-			"description: "Yank (Copy) Marked Text"
-			"code": "y "
-		},
-		"Delete Marked Text",
-			"description: "Delete Marked Text"
-			"code": "d "
-		},
-		"Switch Case",
-			"description: "Switch Case"
-			"code": "~ "
-		},
-		"Show Registers Content",
-			"description: "Show Registers Content"
-			"code": ":reg "
-		},
-		"Yank Into Register X",
-			"description: "Yank Into Register X"
-			"code": ""xy "
-		},
-		"Paste Contents Of Register X",
-			"description: "Paste Contents Of Register X"
-			"code": ""xp "
-		},
-		"List Of Marks",
-			"description: "List Of Marks"
-			"code": ":marks "
-		},
-		"Set Current Position For Mark A",
-			"description: "Set Current Position For Mark A"
-			"code": "ma "
-		},
-		"Jump To Position Of Mark A",
-			"description: "Jump To Position Of Mark A"
-			"code": "`a "
-		},
-		"Yank Text To Position Of Mark A",
-			"description: "Yank Text To Position Of Mark A"
-			"code": "y`a "
-		},
-		"Record Macro A",
-			"description: "Record Macro A"
-			"code": "qa "
-		},
-		"Stop Recording Macro",
-			"description: "Stop Recording Macro"
-			"code": "q "
-		},
-		"Run Macro A",
-			"description: "Run Macro A"
-			"code": "@a "
-		},
-		"Rerun Last Run Macro",
-			"description: "Rerun Last Run Macro"
-			"code": "@@ "
-		},
-		"Yank (Copy) A Line",
-			"description: "Yank (Copy) A Line"
-			"code": "yy "
-		},
-		"Yank (Copy) 2 Lines",
-			"description: "Yank (Copy) 2 Lines"
-			"code": "2yy "
-		},
-		"Yank (Copy) The Characters Of The Word From The Cursor Position To The Start Of The Next Word",
-			"description: "Yank (Copy) The Characters Of The Word From The Cursor Position To The Start Of The Next Word"
-			"code": "yw "
-		},
-		"Yank (Copy) To End Of Line",
-			"description: "Yank (Copy) To End Of Line"
-			"code": "y$ "
-		},
-		"Put (Paste) The Clipboard After Cursor",
-			"description: "Put (Paste) The Clipboard After Cursor"
-			"code": "p "
-		},
-		"Put (Paste) Before Cursor",
-			"description: "Put (Paste) Before Cursor"
-			"code": "P "
-		},
-		"Delete (Cut) A Line",
-			"description: "Delete (Cut) A Line"
-			"code": "dd "
-		},
-		"Delete (Cut) 2 Lines",
-			"description: "Delete (Cut) 2 Lines"
-			"code": "2dd "
-		},
-		"Delete (Cut) The Characters Of The Word From The Cursor Position To The Start Of The Next Word",
-			"description: "Delete (Cut) The Characters Of The Word From The Cursor Position To The Start Of The Next Word"
-			"code": "dw "
-		},
-		"Delete (Cut) To The End Of The Line",
-			"description: "Delete (Cut) To The End Of The Line"
-			"code": "D "
-		},
-		"Delete (Cut) To The End Of The Line",
-			"description: "Delete (Cut) To The End Of The Line"
-			"code": "d$ "
-		},
-		"Delete (Cut) Character",
-			"description: "Delete (Cut) Character"
-			"code": "x "
-		},
-		"Write (Save) The File, But Don'T Exit",
-			"description: "Write (Save) The File, But Don'T Exit"
-			"code": ":w "
-		},
-		"Write Out The Current File Using Sudo",
-			"description: "Write Out The Current File Using Sudo"
-			"code": ":w !sudo tee % "
-		},
-		"Write (Save) And Quit",
-			"description: "Write (Save) And Quit"
-			"code": ":wq or :x or ZZ "
-		},
-		"Quit (Fails If There Are Unsaved Changes)",
-			"description: "Quit (Fails If There Are Unsaved Changes)"
-			"code": ":q "
-		},
-		"Quit And Throw Away Unsaved Changes",
-			"description: "Quit And Throw Away Unsaved Changes"
-			"code": ":q! or ZQ "
-		},
-		"Search For Pattern",
-			"description: "Search For Pattern"
-			"code": "/pattern "
-		},
-		"Search Backward For Pattern",
-			"description: "Search Backward For Pattern"
-			"code": "?pattern "
-		},
-		"'Very Magic' Pattern Non-Alphanumeric Characters Are Interpreted As Special Regex Symbols (No Escaping Needed)",
-			"description: "'Very Magic' Pattern Non-Alphanumeric Characters Are Interpreted As Special Regex Symbols (No Escaping Needed)"
-			"code": "\vpattern "
-		},
-		"Repeat Search In Same Direction",
-			"description: "Repeat Search In Same Direction"
-			"code": "n "
-		},
-		"Repeat Search In Opposite Direction",
-			"description: "Repeat Search In Opposite Direction"
-			"code": "N "
-		},
-		"Replace All Old With New Throughout File",
-			"description: "Replace All Old With New Throughout File"
-			"code": ":%s/old/new/g "
-		},
-		"Replace All Old With New Throughout File With Confirmations",
-			"description: "Replace All Old With New Throughout File With Confirmations"
-			"code": ":%s/old/new/gc "
-		},
-		"Remove Highlighting Of Search Matches",
-			"description: "Remove Highlighting Of Search Matches"
-			"code": ":noh "
+			"description": "Move Cursor Up"
+			"code": "k"
 		}
 
 		},
-		"Search In Multiple Files": {
+	"Search In Multiple Files": {
 		"Open Help For Keyword",
-			"description: "Open Help For Keyword"
-			"code": ":help keyword "
+			"description": "Open Help For Keyword"
+			"code": ":help keyword"
+		}
+
+		},
+	"Working With Multiple Files": {
+		"Open Help For Keyword",
+			"description": "Open Help For Keyword"
+			"code": ":help keyword"
 		},
 		"Open File",
-			"description: "Open File"
-			"code": ":o file "
+			"description": "Open File"
+			"code": ":o file"
 		},
 		"Save File As",
-			"description: "Save File As"
-			"code": ":saveas file "
+			"description": "Save File As"
+			"code": ":saveas file"
 		},
 		"Close Current Pane",
-			"description: "Close Current Pane"
-			"code": ":close "
+			"description": "Close Current Pane"
+			"code": ":close"
 		},
 		"Open Man Page For Word Under The Cursor",
-			"description: "Open Man Page For Word Under The Cursor"
-			"code": "K "
+			"description": "Open Man Page For Word Under The Cursor"
+			"code": "K"
 		},
 		"Move Cursor Left",
-			"description: "Move Cursor Left"
-			"code": "h "
+			"description": "Move Cursor Left"
+			"code": "h"
 		},
 		"Move Cursor Down",
-			"description: "Move Cursor Down"
-			"code": "j "
+			"description": "Move Cursor Down"
+			"code": "j"
 		},
 		"Move Cursor Up",
-			"description: "Move Cursor Up"
-			"code": "k "
+			"description": "Move Cursor Up"
+			"code": "k"
 		},
 		"Move Cursor Right",
-			"description: "Move Cursor Right"
-			"code": "l "
+			"description": "Move Cursor Right"
+			"code": "l"
 		},
 		"Move To Top Of Screen",
-			"description: "Move To Top Of Screen"
-			"code": "H "
+			"description": "Move To Top Of Screen"
+			"code": "H"
 		},
 		"Move To Middle Of Screen",
-			"description: "Move To Middle Of Screen"
-			"code": "M "
+			"description": "Move To Middle Of Screen"
+			"code": "M"
 		},
 		"Move To Bottom Of Screen",
-			"description: "Move To Bottom Of Screen"
-			"code": "L "
+			"description": "Move To Bottom Of Screen"
+			"code": "L"
 		},
 		"Jump Forwards To The Start Of A Word",
-			"description: "Jump Forwards To The Start Of A Word"
-			"code": "w "
+			"description": "Jump Forwards To The Start Of A Word"
+			"code": "w"
 		},
 		"Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "W "
+			"description": "Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)"
+			"code": "W"
 		},
 		"Jump Forwards To The End Of A Word",
-			"description: "Jump Forwards To The End Of A Word"
-			"code": "e "
-		},
-		"Jump Forwards To The End Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The End Of A Word (Words Can Contain Punctuation)"
-			"code": "E "
-		},
-		"Jump Backwards To The Start Of A Word",
-			"description: "Jump Backwards To The Start Of A Word"
-			"code": "b "
-		},
-		"Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "B "
-		},
-		"Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)",
-			"description: "Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)"
-			"code": "% "
-		},
-		"Jump To The Start Of The Line",
-			"description: "Jump To The Start Of The Line"
-			"code": "0 "
-		},
-		"Jump To The First Non-Blank Character Of The Line",
-			"description: "Jump To The First Non-Blank Character Of The Line"
-			"code": "^ "
-		},
-		"Jump To The End Of The Line",
-			"description: "Jump To The End Of The Line"
-			"code": "$ "
-		},
-		"Jump To The Last Non-Blank Character Of The Line",
-			"description: "Jump To The Last Non-Blank Character Of The Line"
-			"code": "g_ "
-		},
-		"Go To The First Line Of The Document",
-			"description: "Go To The First Line Of The Document"
-			"code": "gg "
-		},
-		"Go To The Last Line Of The Document",
-			"description: "Go To The Last Line Of The Document"
-			"code": "G "
-		},
-		"Go To Line 5",
-			"description: "Go To Line 5"
-			"code": "5G "
-		},
-		"Jump To Next Occurrence Of Character X",
-			"description: "Jump To Next Occurrence Of Character X"
-			"code": "fx "
-		},
-		"Jump To Before Next Occurrence Of Character X",
-			"description: "Jump To Before Next Occurrence Of Character X"
-			"code": "tx "
-		},
-		"Jump To Next Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Next Paragraph (Or Function/Block, When Editing Code)"
-			"code": "} "
-		},
-		"Jump To Previous Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Previous Paragraph (Or Function/Block, When Editing Code)"
-			"code": "{ "
-		},
-		"Center Cursor On Screen",
-			"description: "Center Cursor On Screen"
-			"code": "zz "
-		},
-		"Move Back One Full Screen",
-			"description: "Move Back One Full Screen"
-			"code": "Ctrl + b "
-		},
-		"Move Forward One Full Screen",
-			"description: "Move Forward One Full Screen"
-			"code": "Ctrl + f "
-		},
-		"Move Forward 1/2 A Screen",
-			"description: "Move Forward 1/2 A Screen"
-			"code": "Ctrl + d "
-		},
-		"Move Back 1/2 A Screen",
-			"description: "Move Back 1/2 A Screen"
-			"code": "Ctrl + u "
-		},
-		"Insert Before The Cursor",
-			"description: "Insert Before The Cursor"
-			"code": "i "
-		},
-		"Insert At The Beginning Of The Line",
-			"description: "Insert At The Beginning Of The Line"
-			"code": "I "
-		},
-		"Insert (Append) After The Cursor",
-			"description: "Insert (Append) After The Cursor"
-			"code": "a "
-		},
-		"Insert (Append) At The End Of The Line",
-			"description: "Insert (Append) At The End Of The Line"
-			"code": "A "
-		},
-		"Append (Open) A New Line Below The Current Line",
-			"description: "Append (Open) A New Line Below The Current Line"
-			"code": "o "
-		},
-		"Append (Open) A New Line Above The Current Line",
-			"description: "Append (Open) A New Line Above The Current Line"
-			"code": "O "
-		},
-		"Insert (Append) At The End Of The Word",
-			"description: "Insert (Append) At The End Of The Word"
-			"code": "ea "
-		},
-		"Exit Insert Mode",
-			"description: "Exit Insert Mode"
-			"code": "Esc "
-		},
-		"Replace A Single Character",
-			"description: "Replace A Single Character"
-			"code": "r "
-		},
-		"Join Line Below To The Current One",
-			"description: "Join Line Below To The Current One"
-			"code": "J "
-		},
-		"Change (Replace) Entire Line",
-			"description: "Change (Replace) Entire Line"
-			"code": "cc "
-		},
-		"Change (Replace) To The End Of The Word",
-			"description: "Change (Replace) To The End Of The Word"
-			"code": "cw "
-		},
-		"Change (Replace) To The End Of The Line",
-			"description: "Change (Replace) To The End Of The Line"
-			"code": "c$ "
-		},
-		"Delete Character And Substitute Text",
-			"description: "Delete Character And Substitute Text"
-			"code": "s "
-		},
-		"Delete Line And Substitute Text (Same As Cc)",
-			"description: "Delete Line And Substitute Text (Same As Cc)"
-			"code": "S "
-		},
-		"Transpose Two Letters (Delete And Paste)",
-			"description: "Transpose Two Letters (Delete And Paste)"
-			"code": "xp "
-		},
-		"Undo",
-			"description: "Undo"
-			"code": "u "
-		},
-		"Redo",
-			"description: "Redo"
-			"code": "Ctrl + r "
-		},
-		"Repeat Last Command",
-			"description: "Repeat Last Command"
-			"code": ". "
-		},
-		"Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)",
-			"description: "Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)"
-			"code": "v "
-		},
-		"Start Linewise Visual Mode",
-			"description: "Start Linewise Visual Mode"
-			"code": "V "
-		},
-		"Move To Other End Of Marked Area",
-			"description: "Move To Other End Of Marked Area"
-			"code": "o "
-		},
-		"Start Visual Block Mode",
-			"description: "Start Visual Block Mode"
-			"code": "Ctrl + v "
-		},
-		"Move To Other Corner Of Block",
-			"description: "Move To Other Corner Of Block"
-			"code": "O "
-		},
-		"Mark A Word",
-			"description: "Mark A Word"
-			"code": "aw "
-		},
-		"A Block With ()",
-			"description: "A Block With ()"
-			"code": "ab "
-		},
-		"A Block With {}",
-			"description: "A Block With {}"
-			"code": "aB "
-		},
-		"Inner Block With ()",
-			"description: "Inner Block With ()"
-			"code": "ib "
-		},
-		"Inner Block With {}",
-			"description: "Inner Block With {}"
-			"code": "iB "
-		},
-		"Exit Visual Mode",
-			"description: "Exit Visual Mode"
-			"code": "Esc "
-		},
-		"Shift Text Right",
-			"description: "Shift Text Right"
-			"code": "&gt; "
-		},
-		"Shift Text Left",
-			"description: "Shift Text Left"
-			"code": "&lt; "
-		},
-		"Yank (Copy) Marked Text",
-			"description: "Yank (Copy) Marked Text"
-			"code": "y "
-		},
-		"Delete Marked Text",
-			"description: "Delete Marked Text"
-			"code": "d "
-		},
-		"Switch Case",
-			"description: "Switch Case"
-			"code": "~ "
-		},
-		"Show Registers Content",
-			"description: "Show Registers Content"
-			"code": ":reg "
-		},
-		"Yank Into Register X",
-			"description: "Yank Into Register X"
-			"code": ""xy "
-		},
-		"Paste Contents Of Register X",
-			"description: "Paste Contents Of Register X"
-			"code": ""xp "
-		},
-		"List Of Marks",
-			"description: "List Of Marks"
-			"code": ":marks "
-		},
-		"Set Current Position For Mark A",
-			"description: "Set Current Position For Mark A"
-			"code": "ma "
-		},
-		"Jump To Position Of Mark A",
-			"description: "Jump To Position Of Mark A"
-			"code": "`a "
-		},
-		"Yank Text To Position Of Mark A",
-			"description: "Yank Text To Position Of Mark A"
-			"code": "y`a "
-		},
-		"Record Macro A",
-			"description: "Record Macro A"
-			"code": "qa "
-		},
-		"Stop Recording Macro",
-			"description: "Stop Recording Macro"
-			"code": "q "
-		},
-		"Run Macro A",
-			"description: "Run Macro A"
-			"code": "@a "
-		},
-		"Rerun Last Run Macro",
-			"description: "Rerun Last Run Macro"
-			"code": "@@ "
-		},
-		"Yank (Copy) A Line",
-			"description: "Yank (Copy) A Line"
-			"code": "yy "
-		},
-		"Yank (Copy) 2 Lines",
-			"description: "Yank (Copy) 2 Lines"
-			"code": "2yy "
-		},
-		"Yank (Copy) The Characters Of The Word From The Cursor Position To The Start Of The Next Word",
-			"description: "Yank (Copy) The Characters Of The Word From The Cursor Position To The Start Of The Next Word"
-			"code": "yw "
-		},
-		"Yank (Copy) To End Of Line",
-			"description: "Yank (Copy) To End Of Line"
-			"code": "y$ "
-		},
-		"Put (Paste) The Clipboard After Cursor",
-			"description: "Put (Paste) The Clipboard After Cursor"
-			"code": "p "
-		},
-		"Put (Paste) Before Cursor",
-			"description: "Put (Paste) Before Cursor"
-			"code": "P "
-		},
-		"Delete (Cut) A Line",
-			"description: "Delete (Cut) A Line"
-			"code": "dd "
-		},
-		"Delete (Cut) 2 Lines",
-			"description: "Delete (Cut) 2 Lines"
-			"code": "2dd "
-		},
-		"Delete (Cut) The Characters Of The Word From The Cursor Position To The Start Of The Next Word",
-			"description: "Delete (Cut) The Characters Of The Word From The Cursor Position To The Start Of The Next Word"
-			"code": "dw "
-		},
-		"Delete (Cut) To The End Of The Line",
-			"description: "Delete (Cut) To The End Of The Line"
-			"code": "D "
-		},
-		"Delete (Cut) To The End Of The Line",
-			"description: "Delete (Cut) To The End Of The Line"
-			"code": "d$ "
-		},
-		"Delete (Cut) Character",
-			"description: "Delete (Cut) Character"
-			"code": "x "
-		},
-		"Write (Save) The File, But Don'T Exit",
-			"description: "Write (Save) The File, But Don'T Exit"
-			"code": ":w "
-		},
-		"Write Out The Current File Using Sudo",
-			"description: "Write Out The Current File Using Sudo"
-			"code": ":w !sudo tee % "
-		},
-		"Write (Save) And Quit",
-			"description: "Write (Save) And Quit"
-			"code": ":wq or :x or ZZ "
-		},
-		"Quit (Fails If There Are Unsaved Changes)",
-			"description: "Quit (Fails If There Are Unsaved Changes)"
-			"code": ":q "
-		},
-		"Quit And Throw Away Unsaved Changes",
-			"description: "Quit And Throw Away Unsaved Changes"
-			"code": ":q! or ZQ "
-		},
-		"Search For Pattern",
-			"description: "Search For Pattern"
-			"code": "/pattern "
-		},
-		"Search Backward For Pattern",
-			"description: "Search Backward For Pattern"
-			"code": "?pattern "
-		},
-		"'Very Magic' Pattern Non-Alphanumeric Characters Are Interpreted As Special Regex Symbols (No Escaping Needed)",
-			"description: "'Very Magic' Pattern Non-Alphanumeric Characters Are Interpreted As Special Regex Symbols (No Escaping Needed)"
-			"code": "\vpattern "
-		},
-		"Repeat Search In Same Direction",
-			"description: "Repeat Search In Same Direction"
-			"code": "n "
-		},
-		"Repeat Search In Opposite Direction",
-			"description: "Repeat Search In Opposite Direction"
-			"code": "N "
-		},
-		"Replace All Old With New Throughout File",
-			"description: "Replace All Old With New Throughout File"
-			"code": ":%s/old/new/g "
-		},
-		"Replace All Old With New Throughout File With Confirmations",
-			"description: "Replace All Old With New Throughout File With Confirmations"
-			"code": ":%s/old/new/gc "
-		},
-		"Remove Highlighting Of Search Matches",
-			"description: "Remove Highlighting Of Search Matches"
-			"code": ":noh "
-		},
-		"Search For Pattern In Multiple Files",
-			"description: "Search For Pattern In Multiple Files"
-			"code": ":vimgrep /pattern/ {file} "
+			"description": "Jump Forwards To The End Of A Word"
+			"code": "e"
 		}
 
 		},
-		"Working With Multiple Files": {
+	"Tabs": {
 		"Open Help For Keyword",
-			"description: "Open Help For Keyword"
-			"code": ":help keyword "
+			"description": "Open Help For Keyword"
+			"code": ":help keyword"
 		},
 		"Open File",
-			"description: "Open File"
-			"code": ":o file "
+			"description": "Open File"
+			"code": ":o file"
 		},
 		"Save File As",
-			"description: "Save File As"
-			"code": ":saveas file "
+			"description": "Save File As"
+			"code": ":saveas file"
 		},
 		"Close Current Pane",
-			"description: "Close Current Pane"
-			"code": ":close "
+			"description": "Close Current Pane"
+			"code": ":close"
 		},
 		"Open Man Page For Word Under The Cursor",
-			"description: "Open Man Page For Word Under The Cursor"
-			"code": "K "
+			"description": "Open Man Page For Word Under The Cursor"
+			"code": "K"
 		},
 		"Move Cursor Left",
-			"description: "Move Cursor Left"
-			"code": "h "
+			"description": "Move Cursor Left"
+			"code": "h"
 		},
 		"Move Cursor Down",
-			"description: "Move Cursor Down"
-			"code": "j "
+			"description": "Move Cursor Down"
+			"code": "j"
 		},
 		"Move Cursor Up",
-			"description: "Move Cursor Up"
-			"code": "k "
+			"description": "Move Cursor Up"
+			"code": "k"
 		},
 		"Move Cursor Right",
-			"description: "Move Cursor Right"
-			"code": "l "
-		},
-		"Move To Top Of Screen",
-			"description: "Move To Top Of Screen"
-			"code": "H "
-		},
-		"Move To Middle Of Screen",
-			"description: "Move To Middle Of Screen"
-			"code": "M "
-		},
-		"Move To Bottom Of Screen",
-			"description: "Move To Bottom Of Screen"
-			"code": "L "
-		},
-		"Jump Forwards To The Start Of A Word",
-			"description: "Jump Forwards To The Start Of A Word"
-			"code": "w "
-		},
-		"Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "W "
-		},
-		"Jump Forwards To The End Of A Word",
-			"description: "Jump Forwards To The End Of A Word"
-			"code": "e "
-		},
-		"Jump Forwards To The End Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The End Of A Word (Words Can Contain Punctuation)"
-			"code": "E "
-		},
-		"Jump Backwards To The Start Of A Word",
-			"description: "Jump Backwards To The Start Of A Word"
-			"code": "b "
-		},
-		"Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "B "
-		},
-		"Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)",
-			"description: "Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)"
-			"code": "% "
-		},
-		"Jump To The Start Of The Line",
-			"description: "Jump To The Start Of The Line"
-			"code": "0 "
-		},
-		"Jump To The First Non-Blank Character Of The Line",
-			"description: "Jump To The First Non-Blank Character Of The Line"
-			"code": "^ "
-		},
-		"Jump To The End Of The Line",
-			"description: "Jump To The End Of The Line"
-			"code": "$ "
-		},
-		"Jump To The Last Non-Blank Character Of The Line",
-			"description: "Jump To The Last Non-Blank Character Of The Line"
-			"code": "g_ "
-		},
-		"Go To The First Line Of The Document",
-			"description: "Go To The First Line Of The Document"
-			"code": "gg "
-		},
-		"Go To The Last Line Of The Document",
-			"description: "Go To The Last Line Of The Document"
-			"code": "G "
-		},
-		"Go To Line 5",
-			"description: "Go To Line 5"
-			"code": "5G "
-		},
-		"Jump To Next Occurrence Of Character X",
-			"description: "Jump To Next Occurrence Of Character X"
-			"code": "fx "
-		},
-		"Jump To Before Next Occurrence Of Character X",
-			"description: "Jump To Before Next Occurrence Of Character X"
-			"code": "tx "
-		},
-		"Jump To Next Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Next Paragraph (Or Function/Block, When Editing Code)"
-			"code": "} "
-		},
-		"Jump To Previous Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Previous Paragraph (Or Function/Block, When Editing Code)"
-			"code": "{ "
-		},
-		"Center Cursor On Screen",
-			"description: "Center Cursor On Screen"
-			"code": "zz "
-		},
-		"Move Back One Full Screen",
-			"description: "Move Back One Full Screen"
-			"code": "Ctrl + b "
-		},
-		"Move Forward One Full Screen",
-			"description: "Move Forward One Full Screen"
-			"code": "Ctrl + f "
-		},
-		"Move Forward 1/2 A Screen",
-			"description: "Move Forward 1/2 A Screen"
-			"code": "Ctrl + d "
-		},
-		"Move Back 1/2 A Screen",
-			"description: "Move Back 1/2 A Screen"
-			"code": "Ctrl + u "
-		},
-		"Insert Before The Cursor",
-			"description: "Insert Before The Cursor"
-			"code": "i "
-		},
-		"Insert At The Beginning Of The Line",
-			"description: "Insert At The Beginning Of The Line"
-			"code": "I "
-		},
-		"Insert (Append) After The Cursor",
-			"description: "Insert (Append) After The Cursor"
-			"code": "a "
-		},
-		"Insert (Append) At The End Of The Line",
-			"description: "Insert (Append) At The End Of The Line"
-			"code": "A "
-		},
-		"Append (Open) A New Line Below The Current Line",
-			"description: "Append (Open) A New Line Below The Current Line"
-			"code": "o "
-		},
-		"Append (Open) A New Line Above The Current Line",
-			"description: "Append (Open) A New Line Above The Current Line"
-			"code": "O "
-		},
-		"Insert (Append) At The End Of The Word",
-			"description: "Insert (Append) At The End Of The Word"
-			"code": "ea "
-		},
-		"Exit Insert Mode",
-			"description: "Exit Insert Mode"
-			"code": "Esc "
-		},
-		"Replace A Single Character",
-			"description: "Replace A Single Character"
-			"code": "r "
-		},
-		"Join Line Below To The Current One",
-			"description: "Join Line Below To The Current One"
-			"code": "J "
-		},
-		"Change (Replace) Entire Line",
-			"description: "Change (Replace) Entire Line"
-			"code": "cc "
-		},
-		"Change (Replace) To The End Of The Word",
-			"description: "Change (Replace) To The End Of The Word"
-			"code": "cw "
-		},
-		"Change (Replace) To The End Of The Line",
-			"description: "Change (Replace) To The End Of The Line"
-			"code": "c$ "
-		},
-		"Delete Character And Substitute Text",
-			"description: "Delete Character And Substitute Text"
-			"code": "s "
-		},
-		"Delete Line And Substitute Text (Same As Cc)",
-			"description: "Delete Line And Substitute Text (Same As Cc)"
-			"code": "S "
-		},
-		"Transpose Two Letters (Delete And Paste)",
-			"description: "Transpose Two Letters (Delete And Paste)"
-			"code": "xp "
-		},
-		"Undo",
-			"description: "Undo"
-			"code": "u "
-		},
-		"Redo",
-			"description: "Redo"
-			"code": "Ctrl + r "
-		},
-		"Repeat Last Command",
-			"description: "Repeat Last Command"
-			"code": ". "
-		},
-		"Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)",
-			"description: "Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)"
-			"code": "v "
-		},
-		"Start Linewise Visual Mode",
-			"description: "Start Linewise Visual Mode"
-			"code": "V "
-		},
-		"Move To Other End Of Marked Area",
-			"description: "Move To Other End Of Marked Area"
-			"code": "o "
-		},
-		"Start Visual Block Mode",
-			"description: "Start Visual Block Mode"
-			"code": "Ctrl + v "
-		},
-		"Move To Other Corner Of Block",
-			"description: "Move To Other Corner Of Block"
-			"code": "O "
-		},
-		"Mark A Word",
-			"description: "Mark A Word"
-			"code": "aw "
-		},
-		"A Block With ()",
-			"description: "A Block With ()"
-			"code": "ab "
-		},
-		"A Block With {}",
-			"description: "A Block With {}"
-			"code": "aB "
-		},
-		"Inner Block With ()",
-			"description: "Inner Block With ()"
-			"code": "ib "
-		},
-		"Inner Block With {}",
-			"description: "Inner Block With {}"
-			"code": "iB "
-		},
-		"Exit Visual Mode",
-			"description: "Exit Visual Mode"
-			"code": "Esc "
-		},
-		"Shift Text Right",
-			"description: "Shift Text Right"
-			"code": "&gt; "
-		},
-		"Shift Text Left",
-			"description: "Shift Text Left"
-			"code": "&lt; "
-		},
-		"Yank (Copy) Marked Text",
-			"description: "Yank (Copy) Marked Text"
-			"code": "y "
-		},
-		"Delete Marked Text",
-			"description: "Delete Marked Text"
-			"code": "d "
-		},
-		"Switch Case",
-			"description: "Switch Case"
-			"code": "~ "
-		},
-		"Show Registers Content",
-			"description: "Show Registers Content"
-			"code": ":reg "
-		},
-		"Yank Into Register X",
-			"description: "Yank Into Register X"
-			"code": ""xy "
-		},
-		"Paste Contents Of Register X",
-			"description: "Paste Contents Of Register X"
-			"code": ""xp "
-		},
-		"List Of Marks",
-			"description: "List Of Marks"
-			"code": ":marks "
-		},
-		"Set Current Position For Mark A",
-			"description: "Set Current Position For Mark A"
-			"code": "ma "
-		},
-		"Jump To Position Of Mark A",
-			"description: "Jump To Position Of Mark A"
-			"code": "`a "
-		},
-		"Yank Text To Position Of Mark A",
-			"description: "Yank Text To Position Of Mark A"
-			"code": "y`a "
-		},
-		"Record Macro A",
-			"description: "Record Macro A"
-			"code": "qa "
-		},
-		"Stop Recording Macro",
-			"description: "Stop Recording Macro"
-			"code": "q "
-		},
-		"Run Macro A",
-			"description: "Run Macro A"
-			"code": "@a "
-		},
-		"Rerun Last Run Macro",
-			"description: "Rerun Last Run Macro"
-			"code": "@@ "
-		},
-		"Yank (Copy) A Line",
-			"description: "Yank (Copy) A Line"
-			"code": "yy "
-		},
-		"Yank (Copy) 2 Lines",
-			"description: "Yank (Copy) 2 Lines"
-			"code": "2yy "
-		},
-		"Yank (Copy) The Characters Of The Word From The Cursor Position To The Start Of The Next Word",
-			"description: "Yank (Copy) The Characters Of The Word From The Cursor Position To The Start Of The Next Word"
-			"code": "yw "
-		},
-		"Yank (Copy) To End Of Line",
-			"description: "Yank (Copy) To End Of Line"
-			"code": "y$ "
-		},
-		"Put (Paste) The Clipboard After Cursor",
-			"description: "Put (Paste) The Clipboard After Cursor"
-			"code": "p "
-		},
-		"Put (Paste) Before Cursor",
-			"description: "Put (Paste) Before Cursor"
-			"code": "P "
-		},
-		"Delete (Cut) A Line",
-			"description: "Delete (Cut) A Line"
-			"code": "dd "
-		},
-		"Delete (Cut) 2 Lines",
-			"description: "Delete (Cut) 2 Lines"
-			"code": "2dd "
-		},
-		"Delete (Cut) The Characters Of The Word From The Cursor Position To The Start Of The Next Word",
-			"description: "Delete (Cut) The Characters Of The Word From The Cursor Position To The Start Of The Next Word"
-			"code": "dw "
-		},
-		"Delete (Cut) To The End Of The Line",
-			"description: "Delete (Cut) To The End Of The Line"
-			"code": "D "
-		},
-		"Delete (Cut) To The End Of The Line",
-			"description: "Delete (Cut) To The End Of The Line"
-			"code": "d$ "
-		},
-		"Delete (Cut) Character",
-			"description: "Delete (Cut) Character"
-			"code": "x "
-		},
-		"Write (Save) The File, But Don'T Exit",
-			"description: "Write (Save) The File, But Don'T Exit"
-			"code": ":w "
-		},
-		"Write Out The Current File Using Sudo",
-			"description: "Write Out The Current File Using Sudo"
-			"code": ":w !sudo tee % "
-		},
-		"Write (Save) And Quit",
-			"description: "Write (Save) And Quit"
-			"code": ":wq or :x or ZZ "
-		},
-		"Quit (Fails If There Are Unsaved Changes)",
-			"description: "Quit (Fails If There Are Unsaved Changes)"
-			"code": ":q "
-		},
-		"Quit And Throw Away Unsaved Changes",
-			"description: "Quit And Throw Away Unsaved Changes"
-			"code": ":q! or ZQ "
-		},
-		"Search For Pattern",
-			"description: "Search For Pattern"
-			"code": "/pattern "
-		},
-		"Search Backward For Pattern",
-			"description: "Search Backward For Pattern"
-			"code": "?pattern "
-		},
-		"'Very Magic' Pattern Non-Alphanumeric Characters Are Interpreted As Special Regex Symbols (No Escaping Needed)",
-			"description: "'Very Magic' Pattern Non-Alphanumeric Characters Are Interpreted As Special Regex Symbols (No Escaping Needed)"
-			"code": "\vpattern "
-		},
-		"Repeat Search In Same Direction",
-			"description: "Repeat Search In Same Direction"
-			"code": "n "
-		},
-		"Repeat Search In Opposite Direction",
-			"description: "Repeat Search In Opposite Direction"
-			"code": "N "
-		},
-		"Replace All Old With New Throughout File",
-			"description: "Replace All Old With New Throughout File"
-			"code": ":%s/old/new/g "
-		},
-		"Replace All Old With New Throughout File With Confirmations",
-			"description: "Replace All Old With New Throughout File With Confirmations"
-			"code": ":%s/old/new/gc "
-		},
-		"Remove Highlighting Of Search Matches",
-			"description: "Remove Highlighting Of Search Matches"
-			"code": ":noh "
-		},
-		"Search For Pattern In Multiple Files",
-			"description: "Search For Pattern In Multiple Files"
-			"code": ":vimgrep /pattern/ {file} "
-		},
-		"Edit A File In A New Buffer",
-			"description: "Edit A File In A New Buffer"
-			"code": ":e file "
-		},
-		"Go To The Next Buffer",
-			"description: "Go To The Next Buffer"
-			"code": ":bnext or :bn "
-		},
-		"Go To The Previous Buffer",
-			"description: "Go To The Previous Buffer"
-			"code": ":bprev or :bp "
-		},
-		"Delete A Buffer (Close A File)",
-			"description: "Delete A Buffer (Close A File)"
-			"code": ":bd "
-		},
-		"List All Open Buffers",
-			"description: "List All Open Buffers"
-			"code": ":ls "
-		},
-		"Open A File In A New Buffer And Split Window",
-			"description: "Open A File In A New Buffer And Split Window"
-			"code": ":sp file "
-		},
-		"Open A File In A New Buffer And Vertically Split Window",
-			"description: "Open A File In A New Buffer And Vertically Split Window"
-			"code": ":vsp file "
-		},
-		"Split Window",
-			"description: "Split Window"
-			"code": "Ctrl + ws "
-		},
-		"Switch Windows",
-			"description: "Switch Windows"
-			"code": "Ctrl + ww "
-		},
-		"Quit A Window",
-			"description: "Quit A Window"
-			"code": "Ctrl + wq "
-		},
-		"Split Window Vertically",
-			"description: "Split Window Vertically"
-			"code": "Ctrl + wv "
-		},
-		"Move Cursor To The Left Window (Vertical Split)",
-			"description: "Move Cursor To The Left Window (Vertical Split)"
-			"code": "Ctrl + wh "
-		},
-		"Move Cursor To The Right Window (Vertical Split)",
-			"description: "Move Cursor To The Right Window (Vertical Split)"
-			"code": "Ctrl + wl "
-		},
-		"Move Cursor To The Window Below (Horizontal Split)",
-			"description: "Move Cursor To The Window Below (Horizontal Split)"
-			"code": "Ctrl + wj "
-		},
-		"Move Cursor To The Window Above (Horizontal Split)",
-			"description: "Move Cursor To The Window Above (Horizontal Split)"
-			"code": "Ctrl + wk "
-		}
-
-		},
-		"Tabs": {
-		"Open Help For Keyword",
-			"description: "Open Help For Keyword"
-			"code": ":help keyword "
-		},
-		"Open File",
-			"description: "Open File"
-			"code": ":o file "
-		},
-		"Save File As",
-			"description: "Save File As"
-			"code": ":saveas file "
-		},
-		"Close Current Pane",
-			"description: "Close Current Pane"
-			"code": ":close "
-		},
-		"Open Man Page For Word Under The Cursor",
-			"description: "Open Man Page For Word Under The Cursor"
-			"code": "K "
-		},
-		"Move Cursor Left",
-			"description: "Move Cursor Left"
-			"code": "h "
-		},
-		"Move Cursor Down",
-			"description: "Move Cursor Down"
-			"code": "j "
-		},
-		"Move Cursor Up",
-			"description: "Move Cursor Up"
-			"code": "k "
-		},
-		"Move Cursor Right",
-			"description: "Move Cursor Right"
-			"code": "l "
-		},
-		"Move To Top Of Screen",
-			"description: "Move To Top Of Screen"
-			"code": "H "
-		},
-		"Move To Middle Of Screen",
-			"description: "Move To Middle Of Screen"
-			"code": "M "
-		},
-		"Move To Bottom Of Screen",
-			"description: "Move To Bottom Of Screen"
-			"code": "L "
-		},
-		"Jump Forwards To The Start Of A Word",
-			"description: "Jump Forwards To The Start Of A Word"
-			"code": "w "
-		},
-		"Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "W "
-		},
-		"Jump Forwards To The End Of A Word",
-			"description: "Jump Forwards To The End Of A Word"
-			"code": "e "
-		},
-		"Jump Forwards To The End Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Forwards To The End Of A Word (Words Can Contain Punctuation)"
-			"code": "E "
-		},
-		"Jump Backwards To The Start Of A Word",
-			"description: "Jump Backwards To The Start Of A Word"
-			"code": "b "
-		},
-		"Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)",
-			"description: "Jump Backwards To The Start Of A Word (Words Can Contain Punctuation)"
-			"code": "B "
-		},
-		"Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)",
-			"description: "Move To Matching Character (Default Supported Pairs '()', '{}', '[]' - Use <Code>H Matchpairs</Code> In Vim For More Info)"
-			"code": "% "
-		},
-		"Jump To The Start Of The Line",
-			"description: "Jump To The Start Of The Line"
-			"code": "0 "
-		},
-		"Jump To The First Non-Blank Character Of The Line",
-			"description: "Jump To The First Non-Blank Character Of The Line"
-			"code": "^ "
-		},
-		"Jump To The End Of The Line",
-			"description: "Jump To The End Of The Line"
-			"code": "$ "
-		},
-		"Jump To The Last Non-Blank Character Of The Line",
-			"description: "Jump To The Last Non-Blank Character Of The Line"
-			"code": "g_ "
-		},
-		"Go To The First Line Of The Document",
-			"description: "Go To The First Line Of The Document"
-			"code": "gg "
-		},
-		"Go To The Last Line Of The Document",
-			"description: "Go To The Last Line Of The Document"
-			"code": "G "
-		},
-		"Go To Line 5",
-			"description: "Go To Line 5"
-			"code": "5G "
-		},
-		"Jump To Next Occurrence Of Character X",
-			"description: "Jump To Next Occurrence Of Character X"
-			"code": "fx "
-		},
-		"Jump To Before Next Occurrence Of Character X",
-			"description: "Jump To Before Next Occurrence Of Character X"
-			"code": "tx "
-		},
-		"Jump To Next Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Next Paragraph (Or Function/Block, When Editing Code)"
-			"code": "} "
-		},
-		"Jump To Previous Paragraph (Or Function/Block, When Editing Code)",
-			"description: "Jump To Previous Paragraph (Or Function/Block, When Editing Code)"
-			"code": "{ "
-		},
-		"Center Cursor On Screen",
-			"description: "Center Cursor On Screen"
-			"code": "zz "
-		},
-		"Move Back One Full Screen",
-			"description: "Move Back One Full Screen"
-			"code": "Ctrl + b "
-		},
-		"Move Forward One Full Screen",
-			"description: "Move Forward One Full Screen"
-			"code": "Ctrl + f "
-		},
-		"Move Forward 1/2 A Screen",
-			"description: "Move Forward 1/2 A Screen"
-			"code": "Ctrl + d "
-		},
-		"Move Back 1/2 A Screen",
-			"description: "Move Back 1/2 A Screen"
-			"code": "Ctrl + u "
-		},
-		"Insert Before The Cursor",
-			"description: "Insert Before The Cursor"
-			"code": "i "
-		},
-		"Insert At The Beginning Of The Line",
-			"description: "Insert At The Beginning Of The Line"
-			"code": "I "
-		},
-		"Insert (Append) After The Cursor",
-			"description: "Insert (Append) After The Cursor"
-			"code": "a "
-		},
-		"Insert (Append) At The End Of The Line",
-			"description: "Insert (Append) At The End Of The Line"
-			"code": "A "
-		},
-		"Append (Open) A New Line Below The Current Line",
-			"description: "Append (Open) A New Line Below The Current Line"
-			"code": "o "
-		},
-		"Append (Open) A New Line Above The Current Line",
-			"description: "Append (Open) A New Line Above The Current Line"
-			"code": "O "
-		},
-		"Insert (Append) At The End Of The Word",
-			"description: "Insert (Append) At The End Of The Word"
-			"code": "ea "
-		},
-		"Exit Insert Mode",
-			"description: "Exit Insert Mode"
-			"code": "Esc "
-		},
-		"Replace A Single Character",
-			"description: "Replace A Single Character"
-			"code": "r "
-		},
-		"Join Line Below To The Current One",
-			"description: "Join Line Below To The Current One"
-			"code": "J "
-		},
-		"Change (Replace) Entire Line",
-			"description: "Change (Replace) Entire Line"
-			"code": "cc "
-		},
-		"Change (Replace) To The End Of The Word",
-			"description: "Change (Replace) To The End Of The Word"
-			"code": "cw "
-		},
-		"Change (Replace) To The End Of The Line",
-			"description: "Change (Replace) To The End Of The Line"
-			"code": "c$ "
-		},
-		"Delete Character And Substitute Text",
-			"description: "Delete Character And Substitute Text"
-			"code": "s "
-		},
-		"Delete Line And Substitute Text (Same As Cc)",
-			"description: "Delete Line And Substitute Text (Same As Cc)"
-			"code": "S "
-		},
-		"Transpose Two Letters (Delete And Paste)",
-			"description: "Transpose Two Letters (Delete And Paste)"
-			"code": "xp "
-		},
-		"Undo",
-			"description: "Undo"
-			"code": "u "
-		},
-		"Redo",
-			"description: "Redo"
-			"code": "Ctrl + r "
-		},
-		"Repeat Last Command",
-			"description: "Repeat Last Command"
-			"code": ". "
-		},
-		"Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)",
-			"description: "Start Visual Mode, Mark Lines, Then Do A Command (Like Y-Yank)"
-			"code": "v "
-		},
-		"Start Linewise Visual Mode",
-			"description: "Start Linewise Visual Mode"
-			"code": "V "
-		},
-		"Move To Other End Of Marked Area",
-			"description: "Move To Other End Of Marked Area"
-			"code": "o "
-		},
-		"Start Visual Block Mode",
-			"description: "Start Visual Block Mode"
-			"code": "Ctrl + v "
-		},
-		"Move To Other Corner Of Block",
-			"description: "Move To Other Corner Of Block"
-			"code": "O "
-		},
-		"Mark A Word",
-			"description: "Mark A Word"
-			"code": "aw "
-		},
-		"A Block With ()",
-			"description: "A Block With ()"
-			"code": "ab "
-		},
-		"A Block With {}",
-			"description: "A Block With {}"
-			"code": "aB "
-		},
-		"Inner Block With ()",
-			"description: "Inner Block With ()"
-			"code": "ib "
-		},
-		"Inner Block With {}",
-			"description: "Inner Block With {}"
-			"code": "iB "
-		},
-		"Exit Visual Mode",
-			"description: "Exit Visual Mode"
-			"code": "Esc "
-		},
-		"Shift Text Right",
-			"description: "Shift Text Right"
-			"code": "&gt; "
-		},
-		"Shift Text Left",
-			"description: "Shift Text Left"
-			"code": "&lt; "
-		},
-		"Yank (Copy) Marked Text",
-			"description: "Yank (Copy) Marked Text"
-			"code": "y "
-		},
-		"Delete Marked Text",
-			"description: "Delete Marked Text"
-			"code": "d "
-		},
-		"Switch Case",
-			"description: "Switch Case"
-			"code": "~ "
-		},
-		"Show Registers Content",
-			"description: "Show Registers Content"
-			"code": ":reg "
-		},
-		"Yank Into Register X",
-			"description: "Yank Into Register X"
-			"code": ""xy "
-		},
-		"Paste Contents Of Register X",
-			"description: "Paste Contents Of Register X"
-			"code": ""xp "
-		},
-		"List Of Marks",
-			"description: "List Of Marks"
-			"code": ":marks "
-		},
-		"Set Current Position For Mark A",
-			"description: "Set Current Position For Mark A"
-			"code": "ma "
-		},
-		"Jump To Position Of Mark A",
-			"description: "Jump To Position Of Mark A"
-			"code": "`a "
-		},
-		"Yank Text To Position Of Mark A",
-			"description: "Yank Text To Position Of Mark A"
-			"code": "y`a "
-		},
-		"Record Macro A",
-			"description: "Record Macro A"
-			"code": "qa "
-		},
-		"Stop Recording Macro",
-			"description: "Stop Recording Macro"
-			"code": "q "
-		},
-		"Run Macro A",
-			"description: "Run Macro A"
-			"code": "@a "
-		},
-		"Rerun Last Run Macro",
-			"description: "Rerun Last Run Macro"
-			"code": "@@ "
-		},
-		"Yank (Copy) A Line",
-			"description: "Yank (Copy) A Line"
-			"code": "yy "
-		},
-		"Yank (Copy) 2 Lines",
-			"description: "Yank (Copy) 2 Lines"
-			"code": "2yy "
-		},
-		"Yank (Copy) The Characters Of The Word From The Cursor Position To The Start Of The Next Word",
-			"description: "Yank (Copy) The Characters Of The Word From The Cursor Position To The Start Of The Next Word"
-			"code": "yw "
-		},
-		"Yank (Copy) To End Of Line",
-			"description: "Yank (Copy) To End Of Line"
-			"code": "y$ "
-		},
-		"Put (Paste) The Clipboard After Cursor",
-			"description: "Put (Paste) The Clipboard After Cursor"
-			"code": "p "
-		},
-		"Put (Paste) Before Cursor",
-			"description: "Put (Paste) Before Cursor"
-			"code": "P "
-		},
-		"Delete (Cut) A Line",
-			"description: "Delete (Cut) A Line"
-			"code": "dd "
-		},
-		"Delete (Cut) 2 Lines",
-			"description: "Delete (Cut) 2 Lines"
-			"code": "2dd "
-		},
-		"Delete (Cut) The Characters Of The Word From The Cursor Position To The Start Of The Next Word",
-			"description: "Delete (Cut) The Characters Of The Word From The Cursor Position To The Start Of The Next Word"
-			"code": "dw "
-		},
-		"Delete (Cut) To The End Of The Line",
-			"description: "Delete (Cut) To The End Of The Line"
-			"code": "D "
-		},
-		"Delete (Cut) To The End Of The Line",
-			"description: "Delete (Cut) To The End Of The Line"
-			"code": "d$ "
-		},
-		"Delete (Cut) Character",
-			"description: "Delete (Cut) Character"
-			"code": "x "
-		},
-		"Write (Save) The File, But Don'T Exit",
-			"description: "Write (Save) The File, But Don'T Exit"
-			"code": ":w "
-		},
-		"Write Out The Current File Using Sudo",
-			"description: "Write Out The Current File Using Sudo"
-			"code": ":w !sudo tee % "
-		},
-		"Write (Save) And Quit",
-			"description: "Write (Save) And Quit"
-			"code": ":wq or :x or ZZ "
-		},
-		"Quit (Fails If There Are Unsaved Changes)",
-			"description: "Quit (Fails If There Are Unsaved Changes)"
-			"code": ":q "
-		},
-		"Quit And Throw Away Unsaved Changes",
-			"description: "Quit And Throw Away Unsaved Changes"
-			"code": ":q! or ZQ "
-		},
-		"Search For Pattern",
-			"description: "Search For Pattern"
-			"code": "/pattern "
-		},
-		"Search Backward For Pattern",
-			"description: "Search Backward For Pattern"
-			"code": "?pattern "
-		},
-		"'Very Magic' Pattern Non-Alphanumeric Characters Are Interpreted As Special Regex Symbols (No Escaping Needed)",
-			"description: "'Very Magic' Pattern Non-Alphanumeric Characters Are Interpreted As Special Regex Symbols (No Escaping Needed)"
-			"code": "\vpattern "
-		},
-		"Repeat Search In Same Direction",
-			"description: "Repeat Search In Same Direction"
-			"code": "n "
-		},
-		"Repeat Search In Opposite Direction",
-			"description: "Repeat Search In Opposite Direction"
-			"code": "N "
-		},
-		"Replace All Old With New Throughout File",
-			"description: "Replace All Old With New Throughout File"
-			"code": ":%s/old/new/g "
-		},
-		"Replace All Old With New Throughout File With Confirmations",
-			"description: "Replace All Old With New Throughout File With Confirmations"
-			"code": ":%s/old/new/gc "
-		},
-		"Remove Highlighting Of Search Matches",
-			"description: "Remove Highlighting Of Search Matches"
-			"code": ":noh "
-		},
-		"Search For Pattern In Multiple Files",
-			"description: "Search For Pattern In Multiple Files"
-			"code": ":vimgrep /pattern/ {file} "
-		},
-		"Edit A File In A New Buffer",
-			"description: "Edit A File In A New Buffer"
-			"code": ":e file "
-		},
-		"Go To The Next Buffer",
-			"description: "Go To The Next Buffer"
-			"code": ":bnext or :bn "
-		},
-		"Go To The Previous Buffer",
-			"description: "Go To The Previous Buffer"
-			"code": ":bprev or :bp "
-		},
-		"Delete A Buffer (Close A File)",
-			"description: "Delete A Buffer (Close A File)"
-			"code": ":bd "
-		},
-		"List All Open Buffers",
-			"description: "List All Open Buffers"
-			"code": ":ls "
-		},
-		"Open A File In A New Buffer And Split Window",
-			"description: "Open A File In A New Buffer And Split Window"
-			"code": ":sp file "
-		},
-		"Open A File In A New Buffer And Vertically Split Window",
-			"description: "Open A File In A New Buffer And Vertically Split Window"
-			"code": ":vsp file "
-		},
-		"Split Window",
-			"description: "Split Window"
-			"code": "Ctrl + ws "
-		},
-		"Switch Windows",
-			"description: "Switch Windows"
-			"code": "Ctrl + ww "
-		},
-		"Quit A Window",
-			"description: "Quit A Window"
-			"code": "Ctrl + wq "
-		},
-		"Split Window Vertically",
-			"description: "Split Window Vertically"
-			"code": "Ctrl + wv "
-		},
-		"Move Cursor To The Left Window (Vertical Split)",
-			"description: "Move Cursor To The Left Window (Vertical Split)"
-			"code": "Ctrl + wh "
-		},
-		"Move Cursor To The Right Window (Vertical Split)",
-			"description: "Move Cursor To The Right Window (Vertical Split)"
-			"code": "Ctrl + wl "
-		},
-		"Move Cursor To The Window Below (Horizontal Split)",
-			"description: "Move Cursor To The Window Below (Horizontal Split)"
-			"code": "Ctrl + wj "
-		},
-		"Move Cursor To The Window Above (Horizontal Split)",
-			"description: "Move Cursor To The Window Above (Horizontal Split)"
-			"code": "Ctrl + wk "
-		},
-		"Open A File In A New Tab",
-			"description: "Open A File In A New Tab"
-			"code": ":tabnew or :tabnew file "
-		},
-		"Move The Current Split Window Into Its Own Tab",
-			"description: "Move The Current Split Window Into Its Own Tab"
-			"code": "Ctrl + wT "
-		},
-		"Move To The Next Tab",
-			"description: "Move To The Next Tab"
-			"code": "gt or :tabnext or :tabn "
-		},
-		"Move To The Previous Tab",
-			"description: "Move To The Previous Tab"
-			"code": "gT or :tabprev or :tabp "
-		},
-		"Move To Tab Number #",
-			"description: "Move To Tab Number #"
-			"code": "#gt "
-		},
-		"Move Current Tab To The #Th Position (Indexed From 0)",
-			"description: "Move Current Tab To The #Th Position (Indexed From 0)"
-			"code": ":tabmove # "
-		},
-		"Close The Current Tab And All Its Windows",
-			"description: "Close The Current Tab And All Its Windows"
-			"code": ":tabclose or :tabc "
-		},
-		"Close All Tabs Except For The Current One",
-			"description: "Close All Tabs Except For The Current One"
-			"code": ":tabonly or :tabo "
-		},
-		"Run The <Code>Command</Code> On All Tabs (E.G. <Code>Tabdo Q</Code> - Closes All Opened Tabs)",
-			"description: "Run The <Code>Command</Code> On All Tabs (E.G. <Code>Tabdo Q</Code> - Closes All Opened Tabs)"
-			"code": ":tabdo command "
+			"description": "Move Cursor Right"
+			"code": "l"
 		}
 
 		}
-		
+	

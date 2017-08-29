@@ -27,7 +27,7 @@ def main():
     #    os.makedirs(userInput)
     #os.chdir('userInput')
     readWebsite()
-    outputCheatSheetFile()
+    getSections()
 
 ##
 # Open the website to be scrapped
@@ -113,41 +113,8 @@ def tag_removal(string, replacements):
     return regexp.sub(lambda match: replacements[match.group(0)], string)
 
 # Cheat Sheet format is as follows
-'''
-{
-	"name": "Cheatsheet Template",
-	"description": "Cheatsheet template",
-	"author": "Chris Read",
-	"email": "centurix@gmail.com",
-	"repository": "http://fipo.co",
-	"version": "0.1",
-	"sections": {
-		"Section 1": {
-			"Example 1": {
-				"description": "Example 1 description",
-				"code": "EXAMPLE 1 CODE"
-			},
-			"Example 2": {
-				"description": "Example 2 description",
-				"code": "EXAMPLE 2 CODE"
-			}
-		},
-		"Section 2": {
-			"Example 1": {
-				"description": "Example 1 description",
-				"code": "EXAMPLE 1 CODE"
-			},
-			"Example 2": {
-				"description": "Example 2 description",
-				"code": "EXAMPLE 2 CODE"
-			}
-		}
-	}
-}
-'''
 # func - create the cheat sheet format for copying and pasting later on
-
-def outputCheatSheetFile():
+def getSections():
     sectionStart = '\"sections\": {\n\t'
     counter = 0
 
@@ -172,6 +139,7 @@ def outputCheatSheetFile():
 
     createCheatSheet(sectionStart)
 
+# Create json file of the cheat sheet
 def createCheatSheet(section):
     with open('Vim.json', 'w') as chtSheet:
         chtSheet.write('{\n\t\"name\": ' + '\"Vim Template\",\n\t' + '\"description\":' + '\"Vim Template\",\n\t' + '\"author\",\n\t' + '\"email\":' + '\"repository\",\n\t' + '\"version\":' + '\"0.1\",\n\t')

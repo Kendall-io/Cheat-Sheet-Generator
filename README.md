@@ -16,18 +16,36 @@ H - move cursor left
 
 The format of the template is:
 ```
-"sections": {
-    "Section Description": {
-         "What the command does": {
-             "description": "",
-             "code": ""
-         },
-         "Example 2": {
-             "description": "",
-             "code": ""
-         }
-    },
-
+{
+	"name": "Cheatsheet Template",
+	"description": "Cheatsheet template",
+	"author": "Chris Read",
+	"email": "centurix@gmail.com",
+	"repository": "http://fipo.co",
+	"version": "0.1",
+	"sections": {
+		"Section 1": {
+			"Example 1": {
+				"description": "Example 1 description",
+				"code": "EXAMPLE 1 CODE"
+			},
+			"Example 2": {
+				"description": "Example 2 description",
+				"code": "EXAMPLE 2 CODE"
+			}
+		},
+		"Section 2": {
+			"Example 1": {
+				"description": "Example 1 description",
+				"code": "EXAMPLE 1 CODE"
+			},
+			"Example 2": {
+				"description": "Example 2 description",
+				"code": "EXAMPLE 2 CODE"
+			}
+		}
+	}
+}
 ```
 
 ### Current Problems:
