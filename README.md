@@ -4,7 +4,8 @@
 * Python2.7
 
 ### Purpose
-Webscrapes a webpage and gets the data from it if it is formed in similar syntax:
+Webscrapes a webpage and gets the data from it if it is formed in similar syntax:<br>
+(I want to emphasize that this is still being worked on and is still in the early stages.)
 Currently only works with the VIM html website
 ```
 Key Code - Description
