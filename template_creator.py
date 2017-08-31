@@ -71,7 +71,6 @@ def getData(output):
 
     # The tags that need to be removed
     replacementTagsForKeys = {'<li>': '', '<kbd>': '', '</kbd>': ''}
-    replacementTagsForDescription = {'</li>', ''}
 
     ##
     # Separates the key shortcut for vim commands from the description.
