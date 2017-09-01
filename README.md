@@ -21,11 +21,20 @@ Keep in mind that if one is using Linux Mint Cinnamon it is assuming that the lo
 ~/.local/share/cinnamon/applets/cheaty@centurix/
 ```
 
-### Usage
+### Usage 
+
+Current Implementation:
+```
+python template_creator.py
+```
+
+<br>
+NOT IMPLEMENTED YET
 
 ```
 python template_creator.py [fileName]
 ```
+
 ### Format of template:
 This template was given by cheaty since it was provided in the package. <br>
 The format of the template is:
@@ -67,6 +76,7 @@ The format of the template is:
 - Argument command where it wgets the website and then extracts website data from it.
 - Adjust cheaty configuration in the linux mint applet where user can choose the commands that it wants
 - Finds the users path for cheaty to implement directly with interaction.
+
 ~### Current Problems:~
 ~Fix format of text and fix output as well. It is not iterating at the starting header~<br>
 
